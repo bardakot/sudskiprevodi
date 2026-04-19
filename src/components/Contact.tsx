@@ -164,6 +164,16 @@ const Contact = () => {
                   <p className="font-medium text-sm sm:text-base">@sudski_prevodi_mk</p>
                 </div>
               </a>
+              <div className="mt-6 sm:mt-8">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.5130256270354!2d21.452362176330503!3d41.98926417122989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354158ffbd68c1d%3A0x9fca3213a6c00252!2sSudski%20Prevodi%20MK!5e0!3m2!1sen!2smk!4v1776630264878!5m2!1sen!2smk"
+              className="w-full h-[250px] sm:h-[300px] rounded-lg border border-border"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+              
             </div>
           </motion.div>
           {/* here */}
