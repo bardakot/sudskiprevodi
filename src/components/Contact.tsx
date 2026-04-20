@@ -11,7 +11,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { useToast } from '@/hooks/use-toast';
-import { Send, Mail, Phone, Facebook, Instagram } from 'lucide-react';
+import { Send, Mail, Phone, Facebook, Instagram, MapPin } from 'lucide-react';
 
 const formSchema = z.object({
   name: z.string().min(2, 'Name is required').max(100),
@@ -165,14 +165,17 @@ const Contact = () => {
                 </div>
               </a>
               <div className="mt-6 sm:mt-8">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.5130256270354!2d21.452362176330503!3d41.98926417122989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354158ffbd68c1d%3A0x9fca3213a6c00252!2sSudski%20Prevodi%20MK!5e0!3m2!1sen!2smk!4v1776630264878!5m2!1sen!2smk"
-              className="w-full h-[250px] sm:h-[300px] rounded-lg border border-border"
-              style={{ border: 0 }}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.513024286765!2d21.454937099999995!3d41.9892642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354158ffbd68c1d%3A0x9fca3213a6c00252!2sSudski%20Prevodi%20MK!5e0!3m2!1sen!2smk!4v1776718727422!5m2!1sen!2smk"
+                  width="100%"
+                  height={300}
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full rounded-lg"
+                />
+              </div>
               
             </div>
           </motion.div>
