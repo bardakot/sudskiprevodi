@@ -22,81 +22,324 @@
     <meta name="twitter:description" content="Професионални судски преводи на правни, академски, деловни и други видови на документи од македонски на англиски јазик и обратно и од македонски на српски јазик и обратно." />
     <meta name="twitter:image" content="/og-image.png" />
     
+    <!-- BLOCK 1: ProfessionalService / LocalBusiness -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Судски Преводи МК",
-      "description": "Професионални судски преводи на правни, академски, деловни и други видови на документи од македонски на англиски јазик и обратно и од македонски на српски јазик и обратно.",
-      "url": "https://sudskiprevodimk.com",
-      "@id": "https://sudskiprevodimk.com",
-      "priceRange": "$$",
+      "@type": "ProfessionalService",
+      "@id": "https://www.sudskiprevodimk.com/#business",
+      "name": "Sudski Prevodi MK",
+      "legalName": "Sudski Prevodi MK",
+      "description": "Certified court translations of legal, academic, business, and other documents from English to Macedonian, Macedonian to English, Serbian to Macedonian, Macedonian to Serbian, Turkish to Macedonian, and Macedonian to Turkish. Official Court Translator licensed by the Ministry of Justice of North Macedonia.",
+      "url": "https://www.sudskiprevodimk.com",
+      "telephone": "+38975252097",
+      "priceRange": "300–400 MKD / 4.50–6.50 EUR per page",
+      "image": "https://www.sudskiprevodimk.com/logo.png",
+      "logo": "https://www.sudskiprevodimk.com/logo.png",
       "address": {
         "@type": "PostalAddress",
-        "addressCountry": "MK",
-        "addressRegion": "North Macedonia"
+        "streetAddress": "Vladimir Komarov st. no.23",
+        "addressLocality": "Skopje",
+        "addressRegion": "Aerodrom",
+        "addressCountry": "MK"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "addressCountry": "MK"
+        "latitude": 41.989220,
+        "longitude": 21.454979
       },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday", "Tuesday", "Wednesday", "Thursday",
+            "Friday", "Saturday", "Sunday"
+          ],
+          "opens": "07:30",
+          "closes": "21:30"
+        }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Skopje" },
+        { "@type": "City", "name": "Bitola" },
+        { "@type": "City", "name": "Prilep" },
+        { "@type": "City", "name": "Tetovo" }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Преведувачки услуги",
+        "name": "Translation Services",
         "itemListElement": [
           {
             "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Правни преводи",
-              "description": "Овластени судски преводи на правни документи",
-              "serviceType": "Legal Translation",
-              "availableLanguage": ["mk", "en", "sr"]
-            }
+            "itemOffered": { "@type": "Service", "name": "English to Macedonian Certified Translation" },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD" }
           },
           {
             "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Академски преводи",
-              "description": "Преводи на дипломи, сертификати и академски документи",
-              "serviceType": "Academic Translation",
-              "availableLanguage": ["mk", "en", "sr"]
-            }
+            "itemOffered": { "@type": "Service", "name": "Macedonian to English Certified Translation" },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD" }
           },
           {
             "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Деловни преводи",
-              "description": "Преводи на деловни документи и договори",
-              "serviceType": "Business Translation",
-              "availableLanguage": ["mk", "en", "sr"]
-            }
+            "itemOffered": { "@type": "Service", "name": "Serbian to Macedonian Certified Translation" },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Macedonian to Serbian Certified Translation" },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Turkish to Macedonian Certified Translation" },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Macedonian to Turkish Certified Translation" },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD" }
           }
         ]
       },
-      "knowsLanguage": [
-        {
-          "@type": "Language",
-          "name": "Macedonian",
-          "alternateName": "mk"
-        },
-        {
-          "@type": "Language",
-          "name": "English",
-          "alternateName": "en"
-        },
-        {
-          "@type": "Language",
-          "name": "Serbian",
-          "alternateName": "sr"
-        }
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "50",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "founder": { "@type": "Person", "name": "Dimitar Bardakoski" },
+      "knowsAbout": [
+        "Legal translation",
+        "Court document translation",
+        "Academic document translation",
+        "Business document translation",
+        "Certified translation",
+        "English to Macedonian translation",
+        "Serbian to Macedonian translation",
+        "Turkish to Macedonian translation"
       ],
-      "areaServed": {
-        "@type": "Country",
-        "name": "North Macedonia"
-      }
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Professional License",
+        "recognizedBy": {
+          "@type": "GovernmentOrganization",
+          "name": "Ministry of Justice of North Macedonia"
+        }
+      },
+      "sameAs": [ "https://www.sudskiprevodimk.com" ]
+    }
+    </script>
+
+    <!-- BLOCK 2: Service graph (one entry per language pair) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://www.sudskiprevodimk.com/#service-en-mk",
+          "name": "English to Macedonian Certified Translation",
+          "serviceType": "Certified Legal Translation",
+          "description": "Certified translation of legal, academic, business, and personal documents from English to Macedonian. Accepted by courts, notaries, universities, embassies, and government institutions in North Macedonia.",
+          "provider": { "@id": "https://www.sudskiprevodimk.com/#business" },
+          "areaServed": [
+            { "@type": "City", "name": "Skopje" },
+            { "@type": "City", "name": "Bitola" },
+            { "@type": "City", "name": "Prilep" },
+            { "@type": "City", "name": "Tetovo" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD",
+              "description": "Per page. Approximately 4.50–6.50 EUR."
+            }
+          },
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Turnaround", "value": "Same day, within a few hours of document submission" },
+            { "@type": "PropertyValue", "name": "Delivery", "value": "Free delivery to client's location" },
+            { "@type": "PropertyValue", "name": "Submission method", "value": "Online (photo, scan, or email) or in person" }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.sudskiprevodimk.com/#service-mk-en",
+          "name": "Macedonian to English Certified Translation",
+          "serviceType": "Certified Legal Translation",
+          "description": "Certified translation of legal, academic, business, and personal documents from Macedonian to English. Completed same day. Free delivery included.",
+          "provider": { "@id": "https://www.sudskiprevodimk.com/#business" },
+          "areaServed": [
+            { "@type": "City", "name": "Skopje" },
+            { "@type": "City", "name": "Bitola" },
+            { "@type": "City", "name": "Prilep" },
+            { "@type": "City", "name": "Tetovo" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD",
+              "description": "Per page. Approximately 4.50–6.50 EUR."
+            }
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.sudskiprevodimk.com/#service-sr-mk",
+          "name": "Serbian to Macedonian Certified Translation",
+          "serviceType": "Certified Legal Translation",
+          "description": "Certified translation of legal, academic, business, and personal documents from Serbian to Macedonian. Completed same day. Free delivery included.",
+          "provider": { "@id": "https://www.sudskiprevodimk.com/#business" },
+          "areaServed": [
+            { "@type": "City", "name": "Skopje" },
+            { "@type": "City", "name": "Bitola" },
+            { "@type": "City", "name": "Prilep" },
+            { "@type": "City", "name": "Tetovo" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD",
+              "description": "Per page. Approximately 4.50–6.50 EUR."
+            }
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.sudskiprevodimk.com/#service-mk-sr",
+          "name": "Macedonian to Serbian Certified Translation",
+          "serviceType": "Certified Legal Translation",
+          "description": "Certified translation of legal, academic, business, and personal documents from Macedonian to Serbian. Completed same day. Free delivery included.",
+          "provider": { "@id": "https://www.sudskiprevodimk.com/#business" },
+          "areaServed": [
+            { "@type": "City", "name": "Skopje" },
+            { "@type": "City", "name": "Bitola" },
+            { "@type": "City", "name": "Prilep" },
+            { "@type": "City", "name": "Tetovo" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD",
+              "description": "Per page. Approximately 4.50–6.50 EUR."
+            }
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.sudskiprevodimk.com/#service-tr-mk",
+          "name": "Turkish to Macedonian Certified Translation",
+          "serviceType": "Certified Legal Translation",
+          "description": "Certified translation of legal, academic, business, and personal documents from Turkish to Macedonian. Completed same day. Free delivery included.",
+          "provider": { "@id": "https://www.sudskiprevodimk.com/#business" },
+          "areaServed": [
+            { "@type": "City", "name": "Skopje" },
+            { "@type": "City", "name": "Bitola" },
+            { "@type": "City", "name": "Prilep" },
+            { "@type": "City", "name": "Tetovo" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD",
+              "description": "Per page. Approximately 4.50–6.50 EUR."
+            }
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://www.sudskiprevodimk.com/#service-mk-tr",
+          "name": "Macedonian to Turkish Certified Translation",
+          "serviceType": "Certified Legal Translation",
+          "description": "Certified translation of legal, academic, business, and personal documents from Macedonian to Turkish. Completed same day. Free delivery included.",
+          "provider": { "@id": "https://www.sudskiprevodimk.com/#business" },
+          "areaServed": [
+            { "@type": "City", "name": "Skopje" },
+            { "@type": "City", "name": "Bitola" },
+            { "@type": "City", "name": "Prilep" },
+            { "@type": "City", "name": "Tetovo" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "300", "maxPrice": "400", "priceCurrency": "MKD",
+              "description": "Per page. Approximately 4.50–6.50 EUR."
+            }
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- BLOCK 3: FAQPage (mirrors the visible FAQ on the homepage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a translation take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The translation time depends on the complexity and volume of the material, but typically for smaller volumes of documents, the translation will be ready the next day, and for larger volumes, it will be completed within 3 days. Additionally, due to urgency, a shorter deadline for translation can be arranged."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your translations institutionally recognized domestically and abroad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all our translations are officially recognized in all institutions domestically and abroad. Additionally, depending on the purpose of your documents, institutions may require your documents and translation to be notarized or apostilled."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your translations recognized for nostrification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our translation is recognized for nostrification and based on it, you can apply to the relevant institutions for nostrification of your document."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer notarization and apostille services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we can arrange notarization or apostille for your translated documents if required by the institution where you submit your documents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I send you documents online or do I need to deliver them physically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no need to physically deliver your documents to us, it is sufficient to send us clearly readable scanned copies or photos of them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is delivery handled?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide free delivery of your translated documents to your address and additionally deliver them to you electronically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does translation of one document cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The price for document translation depends on the document type, complexity, volume, and urgency of the translation. Contact us for the best personalized offer, based on your specific needs."
+          }
+        }
+      ]
     }
     </script>
 
