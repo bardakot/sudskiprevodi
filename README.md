@@ -73,3 +73,17 @@ To connect a domain, navigate to Project > Settings > Domains and click Connect 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
 
 For the email we used this: [here](/FORMSPREE_SETUP.md)
+
+ When you add a new landing page (e.g., another city or service), just drop the HTML into
+  public/<path>/index.html and re-run:
+  .venv/bin/python scripts/generate_markdown_mirrors.py
+  The new page gets a .txt mirror generated and the URL automatically appears in llms.txt.
+
+
+
+I have a website hosted on https://github.com/bardakot/sudskiprevodi.
+it's hosted on cloudflare and there is a offical website.
+Walk me through exactly how to upload the llms.txt file we just
+created to the root of my site. Give me step-by-step instructions for
+my specific host. After I upload it, tell me how to confirm it's live
+by visiting the URL directly.

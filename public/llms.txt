@@ -33,6 +33,18 @@ Skopje, Bitola, Prilep, Tetovo — North Macedonia
 - Every translation includes a signed certification statement confirming it is free of technical errors and prepared in a professional and competent manner
 - Free error correction guarantee on all delivered translations
 
+## Markdown Mirrors (Clean AI-Readable Versions)
+Every page on this site has a plain markdown mirror. Add /index.txt to any URL to get the clean content without navigation, scripts, or layout chrome.
+
+- https://www.sudskiprevodimk.com/index.txt
+- https://www.sudskiprevodimk.com/locations/bitola/index.txt
+- https://www.sudskiprevodimk.com/locations/prilep/index.txt
+- https://www.sudskiprevodimk.com/locations/skopje/index.txt
+- https://www.sudskiprevodimk.com/locations/tetovo/index.txt
+- https://www.sudskiprevodimk.com/services/english-macedonian-translation/index.txt
+- https://www.sudskiprevodimk.com/services/serbian-macedonian-translation/index.txt
+- https://www.sudskiprevodimk.com/services/turkish-macedonian-translation/index.txt
+
 ## What Makes Us Different
 Sudski Prevodi MK delivers certified court translations in just a few hours after document submission — not days. Clients do not need to visit the office. Documents can be sent online (photo, scan, or digital file), and the completed certified translation is delivered free of charge directly to the client's location anywhere in the service area. This saves lawyers, notaries, businesses, and individuals significant time and travel.
 
