@@ -48,4 +48,4 @@ Allow: /
 # -----------------------------------------------
 # Sitemap
 # -----------------------------------------------
-Sitemap: https://www.sudskiprevodimk.com/sitemap.xml
+Sitemap: https://sudskiprevodimk.com/sitemap.xml

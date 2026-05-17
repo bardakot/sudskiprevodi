@@ -1,7 +1,7 @@
 ---
 title: Certified Translation Services in Skopje | Sudski Prevodi MK
 description: Official court translator in Skopje. Certified translations from English and Serbian to Macedonian. Same-day delivery. 300–400 MKD per page.
-url: https://www.sudskiprevodimk.com/locations/skopje/
+url: https://sudskiprevodimk.com/locations/skopje/
 last_updated: 2026-05-17
 ---
 
@@ -97,7 +97,7 @@ Phone
 [+389 75 252 097](tel:+38975252097)
 
 Website
-[sudskiprevodimk.com](https://www.sudskiprevodimk.com)
+[sudskiprevodimk.com](https://sudskiprevodimk.com)
 
 Address
 Vladimir Komarov st. no.23, Aerodrom, Skopje

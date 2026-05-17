@@ -27,7 +27,7 @@ from markdownify import markdownify
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_ROOT = REPO_ROOT / "public"
-SITE_BASE_URL = "https://www.sudskiprevodimk.com"
+SITE_BASE_URL = "https://sudskiprevodimk.com"
 
 SKIP_PATH_FRAGMENTS = ("/404", "/thanks/")
 

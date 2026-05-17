@@ -1,7 +1,7 @@
 ---
 title: Certified Serbian to Macedonian Translation | Sudski Prevodi MK
 description: Official court-certified Serbian to Macedonian translation. Licensed by the Ministry of Justice. Same-day service, free delivery. 300–400 MKD per page.
-url: https://www.sudskiprevodimk.com/services/serbian-macedonian-translation/
+url: https://sudskiprevodimk.com/services/serbian-macedonian-translation/
 last_updated: 2026-05-17
 ---
 
@@ -137,7 +137,7 @@ Phone
 [+389 75 252 097](tel:+38975252097)
 
 Website
-[sudskiprevodimk.com](https://www.sudskiprevodimk.com)
+[sudskiprevodimk.com](https://sudskiprevodimk.com)
 
 Hours
 Every day, 07:30–21:30

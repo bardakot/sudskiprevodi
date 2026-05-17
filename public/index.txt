@@ -1,7 +1,7 @@
 ---
 title: Sudski Prevodi MK | Certified Court Translation Services in North Macedonia
 description: Certified court translations from a licensed court translator in Skopje. English, Macedonian, Serbian, and Turkish. Same-day delivery. 300–400 MKD per page.
-url: https://www.sudskiprevodimk.com/
+url: https://sudskiprevodimk.com/
 last_updated: 2026-05-17
 ---
 
@@ -47,16 +47,16 @@ Skopje, Bitola, Prilep, Tetovo — North Macedonia. Free delivery to client's ad
 ## Contact
 
 - Phone: +389 75 252 097
-- Website: https://www.sudskiprevodimk.com
+- Website: https://sudskiprevodimk.com
 - Address: Vladimir Komarov St. No. 23, Skopje, Aerodrom, North Macedonia
 - Hours: Every day, 07:30 – 21:30
 
 ## Detailed Pages
 
-- Skopje: https://www.sudskiprevodimk.com/locations/skopje/
-- Bitola: https://www.sudskiprevodimk.com/locations/bitola/
-- Prilep: https://www.sudskiprevodimk.com/locations/prilep/
-- Tetovo: https://www.sudskiprevodimk.com/locations/tetovo/
-- English ↔ Macedonian: https://www.sudskiprevodimk.com/services/english-macedonian-translation/
-- Serbian ↔ Macedonian: https://www.sudskiprevodimk.com/services/serbian-macedonian-translation/
-- Turkish ↔ Macedonian: https://www.sudskiprevodimk.com/services/turkish-macedonian-translation/
+- Skopje: https://sudskiprevodimk.com/locations/skopje/
+- Bitola: https://sudskiprevodimk.com/locations/bitola/
+- Prilep: https://sudskiprevodimk.com/locations/prilep/
+- Tetovo: https://sudskiprevodimk.com/locations/tetovo/
+- English ↔ Macedonian: https://sudskiprevodimk.com/services/english-macedonian-translation/
+- Serbian ↔ Macedonian: https://sudskiprevodimk.com/services/serbian-macedonian-translation/
+- Turkish ↔ Macedonian: https://sudskiprevodimk.com/services/turkish-macedonian-translation/
