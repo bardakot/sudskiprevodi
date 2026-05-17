@@ -1,0 +1,113 @@
+---
+title: Certified Translation Services in Tetovo | Sudski Prevodi MK
+description: Official court-certified translations serving Tetovo. English and Serbian to Macedonian. Same-day service, free delivery. 300–400 MKD per page.
+url: https://www.sudskiprevodimk.com/locations/tetovo/
+last_updated: 2026-05-17
+---
+
+Tetovo  North Macedonia
+
+# Certified Translation Services in Tetovo
+
+Sudski Prevodi MK provides official court-certified translations for clients in Tetovo and the Polog region. Submit documents from anywhere online — and receive your certified translation, delivered free to your address.
+
+[Call Now: +389 75 252 097](tel:+38975252097)
+
+3,000+Pages translated
+
+50 5-star reviews
+
+4 hrsAverage turnaround
+
+## Certified Translation for Tetovo and the Polog Region
+
+Tetovo is the centre of the Polog region and home to South East European University, municipal courts, notarial offices, and a large population with frequent cross-border administrative needs. Certified translations are required for university enrolment, employment abroad, legal proceedings, and business transactions that cross language lines.
+
+Many translation needs in Tetovo involve trilingual situations — English, Macedonian, and Serbian documents may all be part of the same process. Sudski Prevodi MK handles all four combinations: English ↔ Macedonian and Serbian ↔ Macedonian, covering the most common language pairs needed by Tetovo residents and institutions.
+
+Documents are submitted online, so there is no need to travel to Skopje. The certified translation is completed the same day and delivered free of charge to your Tetovo address. Dimitar Bardakoski holds the official court translator licence issued by the Ministry of Justice of North Macedonia.
+
+## Services Available in Tetovo
+
+* English to Macedonian — certified translation
+* Macedonian to English — certified translation
+* Serbian to Macedonian — certified translation
+* Macedonian to Serbian — certified translation
+* University documents: diplomas, transcripts, student enrolment certificates
+* Legal documents: court decisions, powers of attorney, contracts, notarial acts
+* Personal documents: birth certificates, marriage certificates, ID-related documents
+* Business and employment documents
+* Free delivery throughout Tetovo and the Polog region
+
+300–400 MKD
+
+Per page    approx. 4.50–6.50 EUR
+
+Certification stamp included. Free delivery to Tetovo. Any errors found after delivery corrected free of charge.
+
+## How It Works for Tetovo Clients
+
+1
+
+#### Send your document online
+
+Email or message a photo or scan from Tetovo. No travel required.
+
+2
+
+#### Confirm price and timeline
+
+A quote and completion estimate is provided before work begins.
+
+3
+
+#### Translation completed same day
+
+The certified translation is prepared within a few hours.
+
+4
+
+#### Delivered to your Tetovo address
+
+The signed, certified document arrives at your door at no charge.
+
+## Frequently Asked Questions — Tetovo
+
+Do you provide certified translations in Tetovo?
+
+Yes. Sudski Prevodi MK serves clients in Tetovo and the wider Polog region. Documents are submitted online and the certified translation is delivered free of charge to your address.
+
+Do Tetovo clients need to visit Skopje to get a translation?
+
+No. Everything is handled remotely. Send your document by email or photo, and the certified translation is delivered to your Tetovo address at no extra cost.
+
+Are translations valid for use in Tetovo courts and offices?
+
+Yes. All translations are certified by a court translator licensed by the Ministry of Justice of North Macedonia, and are accepted by courts, notaries, universities, and government offices throughout North Macedonia.
+
+What is the price for certified translation in Tetovo?
+
+300 to 400 Macedonian denari per page (approximately 4.50 to 6.50 EUR). Free delivery to Tetovo is included.
+
+## Contact
+
+Phone
+[+389 75 252 097](tel:+38975252097)
+
+Website
+[sudskiprevodimk.com](https://www.sudskiprevodimk.com)
+
+Hours
+Every day, 07:30–21:30
+
+Submission
+Online — no office visit required
+
+### More from Sudski Prevodi MK
+
+[← HomepageOverview of all services](/)
+[English ↔ MacedonianService details & pricing](/services/english-macedonian-translation/)
+[Serbian ↔ MacedonianService details & pricing](/services/serbian-macedonian-translation/)
+[SkopjeTranslation services](/locations/skopje/)
+[BitolaTranslation services](/locations/bitola/)
+[PrilepTranslation services](/locations/prilep/)

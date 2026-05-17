@@ -1,0 +1,113 @@
+---
+title: Certified Translation Services in Prilep | Sudski Prevodi MK
+description: Official court-certified translations serving Prilep. English and Serbian to Macedonian. Same-day service, free delivery. 300–400 MKD per page.
+url: https://www.sudskiprevodimk.com/locations/prilep/
+last_updated: 2026-05-17
+---
+
+Prilep  North Macedonia
+
+# Certified Translation Services in Prilep
+
+Sudski Prevodi MK provides official court-certified document translations for clients in Prilep. Submit documents online, receive a certified translation the same day, and get free delivery to your address.
+
+[Call Now: +389 75 252 097](tel:+38975252097)
+
+3,000+Pages translated
+
+50 5-star reviews
+
+4 hrsAverage turnaround
+
+## Certified Translation for Prilep
+
+Prilep is one of North Macedonia's major cities, known for its business activity, agricultural sector, and the Marko's Towers historical site. Residents and businesses in Prilep regularly need certified document translations for court proceedings, notarial services, employment abroad, university applications, and business contracts.
+
+Sudski Prevodi MK removes the main obstacle for Prilep clients: the need to travel to Skopje. By submitting documents online, clients in Prilep receive the same same-day certified translation service as those in the capital — with free delivery back to their address.
+
+Dimitar Bardakoski, the certified court translator at Sudski Prevodi MK, holds an official licence from the Ministry of Justice of North Macedonia. With over 3,000 pages translated and 4 years of experience, the service has a verified track record confirmed by 50 five-star Google reviews.
+
+## Services Available for Prilep Clients
+
+* English to Macedonian — certified translation
+* Macedonian to English — certified translation
+* Serbian to Macedonian — certified translation
+* Macedonian to Serbian — certified translation
+* Legal documents: contracts, court orders, powers of attorney, notarial acts
+* Academic documents: diplomas, transcripts, student certificates
+* Personal documents: birth and marriage certificates, ID-related documents
+* Business documents: employment contracts, company registrations, invoices
+* Free delivery to any Prilep address
+
+300–400 MKD
+
+Per page    approx. 4.50–6.50 EUR
+
+Certification stamp included. Free delivery to Prilep. Errors corrected at no charge after delivery.
+
+## How Prilep Clients Use the Service
+
+1
+
+#### Submit online from Prilep
+
+Send a photo, scan, or digital file by email or phone. No trip to Skopje required.
+
+2
+
+#### Get a price and timeline
+
+You receive a quote and estimated completion time before work begins.
+
+3
+
+#### Translation done within hours
+
+The certified translation is completed the same day — typically within a few hours.
+
+4
+
+#### Free delivery to Prilep
+
+The signed and certified document is delivered to your Prilep address at no charge.
+
+## Frequently Asked Questions — Prilep
+
+Do you provide certified translation services in Prilep?
+
+Yes. Sudski Prevodi MK serves clients in Prilep. Documents are submitted online and the completed certified translation is delivered free of charge to your Prilep address.
+
+Do I need to travel to Skopje to use this service from Prilep?
+
+No. Everything is handled remotely. Send your document by email or photo, and the certified translation is delivered to your Prilep address at no extra cost.
+
+How long does translation take for Prilep clients?
+
+The translation is completed within a few hours of receiving your document. Same-day completion is standard. Delivery time to Prilep is confirmed at the time of submission.
+
+What is the price for certified translation in Prilep?
+
+300 to 400 Macedonian denari per page (approximately 4.50 to 6.50 EUR). Free delivery to Prilep is included in the price.
+
+## Contact
+
+Phone
+[+389 75 252 097](tel:+38975252097)
+
+Website
+[sudskiprevodimk.com](https://www.sudskiprevodimk.com)
+
+Hours
+Every day, 07:30–21:30
+
+Submission
+Online — no office visit required
+
+### More from Sudski Prevodi MK
+
+[← HomepageOverview of all services](/)
+[English ↔ MacedonianService details & pricing](/services/english-macedonian-translation/)
+[Serbian ↔ MacedonianService details & pricing](/services/serbian-macedonian-translation/)
+[SkopjeTranslation services](/locations/skopje/)
+[BitolaTranslation services](/locations/bitola/)
+[TetovoTranslation services](/locations/tetovo/)

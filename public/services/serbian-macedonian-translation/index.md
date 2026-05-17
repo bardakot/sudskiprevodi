@@ -1,0 +1,155 @@
+---
+title: Certified Serbian to Macedonian Translation | Sudski Prevodi MK
+description: Official court-certified Serbian to Macedonian translation. Licensed by the Ministry of Justice. Same-day service, free delivery. 300–400 MKD per page.
+url: https://www.sudskiprevodimk.com/services/serbian-macedonian-translation/
+last_updated: 2026-05-17
+---
+
+Service
+
+# Certified Serbian to Macedonian Translation
+
+Official court-certified translation between Serbian and Macedonian — for legal, academic, business, and personal documents. Licensed by the Ministry of Justice of North Macedonia. Same-day turnaround. Free delivery.
+
+[Call Now: +389 75 252 097](tel:+38975252097)
+
+3,000+Pages translated
+
+50 5-star reviews
+
+4 yrs In operation
+
+## What Is a Certified Serbian–Macedonian Translation?
+
+Serbian and Macedonian are related South Slavic languages, but they are not mutually recognised as legally equivalent in official contexts. When submitting a Serbian-language document to a North Macedonian court, government office, notary, or university — or vice versa — an official certified translation is required.
+
+Certification means more than accuracy. It means the translation has been prepared by a licensed court translator who signs a statement taking legal responsibility for the correctness of the translation. In North Macedonia, this licence is issued exclusively by the Ministry of Justice. Without it, a translation has no official standing, regardless of how well it is written.
+
+Dimitar Bardakoski at Sudski Prevodi MK holds that licence. Serbian–Macedonian translation is one of the core services offered, and the same-day turnaround applies here as to all language pairs. Over 4 years and more than 3,000 pages translated, the service has a proven track record confirmed by 50 five-star Google reviews.
+
+## Common Serbian–Macedonian Translation Requests
+
+Serbian documents frequently arrive at North Macedonian institutions from former Yugoslav citizens, people with dual ties, businesses operating across borders, and individuals with family or employment connections between the two countries. The most common documents include:
+
+* Court decisions and judgements from Serbian courts
+* Academic diplomas from Serbian universities
+* Birth, death, and marriage certificates issued in Serbia
+* Employment contracts and job offer letters
+* Notarial acts and powers of attorney
+* Business registration documents and company statutes
+* Pension and social security documents
+* Property and ownership documents
+* Medical certificates and records
+
+300–400 MKD
+
+Per page    approx. 4.50–6.50 EUR
+
+Certification stamp and signature included. Free delivery to Skopje, Bitola, Prilep, and Tetovo. Errors corrected at no charge.
+
+## Who This Service Is For
+
+LawyersSubmitting Serbian documents to Macedonian courts
+
+NotariesProcessing cross-border legal documents
+
+StudentsUsing Serbian diplomas in North Macedonia
+
+Job seekersValidating Serbian credentials locally
+
+FamiliesDocuments for inheritance, property, or civil registry
+
+BusinessesContracts and registrations across borders
+
+Recruitment agenciesProcessing candidates with Serbian documents
+
+PensionersSocial security and pension documents
+
+## What Is Included in the Price
+
+* Full translation from Serbian to Macedonian (or Macedonian to Serbian)
+* Certified stamp and signature of the licensed court translator
+* Certification statement confirming accuracy and freedom from technical errors
+* Free delivery to your address in Skopje, Bitola, Prilep, or Tetovo
+* Free error correction if any technical issue is identified after delivery
+
+## The Process, Step by Step
+
+1
+
+#### Send your Serbian document online
+
+A photo, scan, or digital file sent by phone or email is sufficient. No need to travel or post original documents.
+
+2
+
+#### Confirm price and timeline
+
+A quote per page and a turnaround estimate is confirmed before work begins. No surprises.
+
+3
+
+#### Translation prepared and certified
+
+The document is translated, reviewed, and signed with the official court translator certification. Usually completed within a few hours.
+
+4
+
+#### Free delivery to your address
+
+The certified translation is delivered to you in Skopje, Bitola, Prilep, or Tetovo at no additional cost.
+
+5
+
+#### Submit it officially
+
+The document is ready for use with courts, notaries, universities, government offices, and any institution requiring certified translation.
+
+## Frequently Asked Questions
+
+Why do I need a certified translation for a Serbian document in North Macedonia?
+
+Even though Serbian and Macedonian are related languages, courts, notaries, and government offices in North Macedonia require an officially certified translation for any foreign-language document. A certified translation carries a legal guarantee of accuracy backed by a licensed court translator.
+
+How much does Serbian to Macedonian translation cost?
+
+Between 300 and 400 Macedonian denari per page, approximately 4.50 to 6.50 EUR. Free delivery is included. You receive a quote before work begins.
+
+How long does Serbian to Macedonian translation take?
+
+Most translations are completed within a few hours of receiving the document. The maximum turnaround is one day.
+
+Do I need to send the original Serbian document?
+
+No. A clear scan or photo is sufficient. Original documents are not required in most cases.
+
+What Serbian documents are most commonly translated to Macedonian?
+
+Court decisions, diplomas, birth and marriage certificates, employment documents, business contracts, and notarial acts are the most frequent requests.
+
+Is the certified translation valid for North Macedonian institutions?
+
+Yes. The certification is issued by a court translator licensed by the Ministry of Justice of North Macedonia, and is accepted by all courts, notaries, universities, and government offices in the country.
+
+## Contact
+
+Phone
+[+389 75 252 097](tel:+38975252097)
+
+Website
+[sudskiprevodimk.com](https://www.sudskiprevodimk.com)
+
+Hours
+Every day, 07:30–21:30
+
+Submission
+Online — no office visit required
+
+### More from Sudski Prevodi MK
+
+[← HomepageAll services overview](/)
+[English ↔ MacedonianOther service offered](/services/english-macedonian-translation/)
+[SkopjeLocation page](/locations/skopje/)
+[BitolaLocation page](/locations/bitola/)
+[PrilepLocation page](/locations/prilep/)
+[TetovoLocation page](/locations/tetovo/)
