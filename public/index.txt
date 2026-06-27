@@ -26,7 +26,7 @@ Document types: legal contracts, court decisions, notarial acts, powers of attor
 
 ## Service Area
 
-Skopje, Bitola, Prilep, Tetovo — North Macedonia. Free delivery to client's address included.
+Skopje, Bitola, Prilep — North Macedonia. Free delivery to client's address included.
 
 ## How It Works
 
@@ -56,7 +56,6 @@ Skopje, Bitola, Prilep, Tetovo — North Macedonia. Free delivery to client's ad
 - Skopje: https://sudskiprevodimk.com/locations/skopje/
 - Bitola: https://sudskiprevodimk.com/locations/bitola/
 - Prilep: https://sudskiprevodimk.com/locations/prilep/
-- Tetovo: https://sudskiprevodimk.com/locations/tetovo/
 - English ↔ Macedonian: https://sudskiprevodimk.com/services/english-macedonian-translation/
 - Serbian ↔ Macedonian: https://sudskiprevodimk.com/services/serbian-macedonian-translation/
 - Turkish ↔ Macedonian: https://sudskiprevodimk.com/services/turkish-macedonian-translation/

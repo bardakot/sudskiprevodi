@@ -22,7 +22,7 @@ Sudski Prevodi MK is an official court translation service based in Skopje, Nort
 - Hours: Every day, 07:30 AM – 09:30 PM (including weekends)
 
 ## Service Area
-Skopje, Bitola, Prilep, Tetovo — North Macedonia
+Skopje, Bitola, Prilep — North Macedonia
 
 ## Key Facts
 - Official Court Translator License issued by the Ministry of Justice of North Macedonia
@@ -40,7 +40,6 @@ Every page on this site has a plain markdown mirror. Add /index.txt to any URL t
 - https://sudskiprevodimk.com/locations/bitola/index.txt
 - https://sudskiprevodimk.com/locations/prilep/index.txt
 - https://sudskiprevodimk.com/locations/skopje/index.txt
-- https://sudskiprevodimk.com/locations/tetovo/index.txt
 - https://sudskiprevodimk.com/services/english-macedonian-translation/index.txt
 - https://sudskiprevodimk.com/services/serbian-macedonian-translation/index.txt
 - https://sudskiprevodimk.com/services/turkish-macedonian-translation/index.txt
@@ -60,7 +59,7 @@ A: Most translations are completed within a few hours of receiving the document.
 A: No. You can send your documents online — by photo, scan, or email. The finished certified translation is delivered to your location for free.
 
 **Q: Is delivery included in the price?**
-A: Yes. Free delivery to the client's address is included for all orders within the service area (Skopje, Bitola, Prilep, Tetovo).
+A: Yes. Free delivery to the client's address is included for all orders within the service area (Skopje, Bitola, Prilep).
 
 **Q: Are the translations legally valid for courts and government offices?**
 A: Yes. Dimitar Bardakoski holds an Official Court Translator License issued by the Ministry of Justice of North Macedonia. Translations are certified and accepted by courts, notaries, universities, embassies, and public institutions.
