@@ -134,6 +134,8 @@ body {
 }
 .hero-cta:hover { background: var(--gold-light); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.hero-cta-services { background: hsl(214 60% 52%); color: hsl(40 20% 97%); font-size: 1.1rem; }
+.hero-cta-services:hover { background: hsl(214 66% 60%); }
 
 /* MAIN */
 main { max-width: 840px; margin: 0 auto; padding: 56px 40px 80px; }
