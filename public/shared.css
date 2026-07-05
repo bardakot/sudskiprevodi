@@ -134,8 +134,8 @@ body {
 }
 .hero-cta:hover { background: var(--gold-light); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
-.hero-cta-services { background: hsl(214 60% 52%); color: hsl(40 20% 97%); font-size: 1.1rem; }
-.hero-cta-services:hover { background: hsl(214 66% 60%); }
+.hero-cta-services { background: hsl(158 64% 40%); color: hsl(0 0% 100%); font-size: 1.1rem; }
+.hero-cta-services:hover { background: hsl(158 64% 46%); }
 
 /* MAIN */
 main { max-width: 840px; margin: 0 auto; padding: 56px 40px 80px; }
@@ -374,4 +374,5 @@ footer a { color: var(--gold); text-decoration: none; }
   .stats-strip { grid-template-columns: 1fr; }
   .price-box { flex-direction: column; align-items: flex-start; }
   .contact-grid { grid-template-columns: 1fr; }
+  .hero-actions { flex-direction: column; align-items: flex-start; gap: 22px; }
 }
