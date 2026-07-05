@@ -133,6 +133,7 @@ body {
   transition: background 0.2s;
 }
 .hero-cta:hover { background: var(--gold-light); }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 
 /* MAIN */
 main { max-width: 840px; margin: 0 auto; padding: 56px 40px 80px; }
