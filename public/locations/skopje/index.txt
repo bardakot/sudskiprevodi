@@ -1,8 +1,8 @@
 ---
-title: Овластен судски превод во Скопје | Судски Преводи МК
-description: Овластен судски преведувач во Скопје. Заверени преводи од англиски и српски на македонски. Достава истиот ден. 300–400 МКД по страница.
+title: Судски Преводи МК | Скопје
+description: Професионални судски преводи на правни, академски, деловни и други видови на документи
 url: https://sudskiprevodimk.com/locations/skopje/
-last_updated: 2026-06-27
+last_updated: 2026-07-06
 ---
 
 [![Судски Преводи МК](/logo.png)](/)
@@ -22,10 +22,12 @@ Sudski Prevodi MK provides official court-certified translations in Skopje — f
 
 [Јавете се: +389 75 252 097
 Call Now: +389 75 252 097](tel:+38975252097)
+[Погледнете ги сите наши услуги!
+See all our services!](/)
 
 3.000+Преведени странициPages translated
 
-50Рецензии со пет ѕвезди5-star reviews
+50+Рецензии со пет ѕвезди5-star reviews
 
 4 ч.4 hrsПросечно времеAverage turnaround
 
@@ -37,7 +39,7 @@ Call Now: +389 75 252 097](tel:+38975252097)
 
 Skopje is the administrative and legal centre of North Macedonia, home to the country's main courts, ministries, notarial offices, universities, and foreign embassies. When you need a certified translation that will be accepted by any of these institutions, the translator must hold an official licence issued by the Ministry of Justice — not just claim professional experience.
 
-Без разлика дали се наоѓате во близина на Градскиот парк, во Чаир, Карпош, Кисела Вода или каде било во Скопје, документите се праќаат онлајн, а готовиот заверен превод, може да биде доставен до вашата врата.
+Без разлика дали се наоѓате во близина на Градскиот парк, во Чаир, Карпош, Кисела Вода или каде било во Скопје, документите се праќаат онлајн, а готовиот заверен превод може да се достави до вашата врата.
 
 Whether you are near the City Park, in Čair, Karpoš, Kisela Voda, or anywhere else in Skopje, documents can be sent online and the completed certified translation can be delivered to your door.
 
@@ -106,7 +108,7 @@ The certified translation is completed within a few hours, maximum one day.
 
 #### Достава до вашата врата
 
-#### Free delivery to your door
+#### Delivery to your door
 
 Потпишаниот и заверен превод може да биде доставен до вашата адреса во Скопје.
 
@@ -118,11 +120,11 @@ The signed, certified translation can be delivered to your Skopje address.
 
 Каде се наоѓа Судски Преводи МК во Скопје?Where is Sudski Prevodi MK located in Skopje?
 
-Канцеларијата е на ул. Владимир Комаров бр.23, Аеродром, Скопје. Не е потребна лична посета — документите се праќаат онлајн, а готовиот превод се доставува бесплатно до вашата адреса насекаде во градот.The office is at Vladimir Komarov st. no.23, Aerodrom, Skopje. You do not need to visit in person — documents can be sent online and the completed translation is delivered free of charge to your address anywhere in the city.
+Канцеларијата е на ул. Владимир Комаров бр.23, Аеродром, Скопје. Не е потребна лична посета — документите се праќаат онлајн, а готовиот превод може да биде доставен до вашата адреса насекаде во градот.The office is at Vladimir Komarov st. no.23, Aerodrom, Skopje. You do not need to visit in person — documents can be sent online and the completed translation can be delivered to your address anywhere in the city.
 
 Дали доставувате заверени преводи низ Скопје?Do you deliver certified translations across Skopje?
 
-Да. вршиме достава до сите општини во Скопје: Аеродром, Центар, Карпош, Кисела Вода, Гази Баба, Чаир, Бутел, Шуто Оризари и околните места.Yes. Delivery can be to all municipalities in Skopje: Aerodrom, Centar, Karpoš, Kisela Voda, Gazi Baba, Čair, Butel, Šuto Orizari, and surrounding areas.
+Врѓиме достава за сите општини во Скопје: Аеродром, Центар, Карпош, Кисела Вода, Гази Баба, Чаир, Бутел, Шуто Оризари и околните места.Yes. Delivery is included for all municipalities in Skopje: Aerodrom, Centar, Karpoš, Kisela Voda, Gazi Baba, Čair, Butel, Šuto Orizari, and surrounding areas.
 
 Колку чини заверен превод во Скопје?How much does a certified translation cost in Skopje?
 
@@ -166,3 +168,5 @@ Serbian ↔ MacedonianService details & pricing](/services/serbian-macedonian-tr
 BitolaTranslation services](/locations/bitola/)
 [ПрилепПреведувачки услуги
 PrilepTranslation services](/locations/prilep/)
+[Турски ↔ МакедонскиДетали и цени за услугата
+Turkish ↔ MacedonianService details & pricing](/services/turkish-macedonian-translation/)

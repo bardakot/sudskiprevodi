@@ -1,8 +1,8 @@
 ---
-title: Заверен превод од англиски на македонски | Судски Преводи МК
-description: Официјален судски заверен превод од англиски на македонски. Лиценциран од Министерството за правда. Услуга истиот ден, бесплатна достава. 300–400 МКД по страница.
+title: Судски Преводи МК | Англиски–Македонски
+description: Заверен судски превод од англиски на македонски и обратно — правни, академски, деловни и лични документи, изготвен од овластен судски преведувач.
 url: https://sudskiprevodimk.com/services/english-macedonian-translation/
-last_updated: 2026-06-27
+last_updated: 2026-07-06
 ---
 
 [![Судски Преводи МК](/logo.png)](/)
@@ -22,10 +22,12 @@ Official court-certified translation between English and Macedonian — for lega
 
 [Јавете се: +389 75 252 097
 Call Now: +389 75 252 097](tel:+38975252097)
+[Погледнете ги сите наши услуги!
+See all our services!](/)
 
 3.000+Преведени странициPages translated
 
-50Рецензии со пет ѕвезди5-star reviews
+50+Рецензии со пет ѕвезди5-star reviews
 
 4 год.4 yrsгодини работаIn operation
 
@@ -239,3 +241,5 @@ SkopjeLocation page](/locations/skopje/)
 BitolaLocation page](/locations/bitola/)
 [ПрилепСтраница за локација
 PrilepLocation page](/locations/prilep/)
+[Турски ↔ МакедонскиДетали и цени за услугата
+Turkish ↔ MacedonianService details & pricing](/services/turkish-macedonian-translation/)

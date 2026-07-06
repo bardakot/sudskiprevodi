@@ -1,8 +1,8 @@
 ---
-title: Заверен превод од српски на македонски | Судски Преводи МК
-description: Официјален судски заверен превод од српски на македонски. Лиценциран од Министерството за правда. Услуга истиот ден, бесплатна достава. 300–400 МКД по страница.
+title: Судски Преводи МК | Српски–Македонски
+description: Судски преводи од српски на македонски и од македонски на српски за договори, дипломи, лични и деловни документи, со заверка од овластен судски преведувач.
 url: https://sudskiprevodimk.com/services/serbian-macedonian-translation/
-last_updated: 2026-06-27
+last_updated: 2026-07-06
 ---
 
 [![Судски Преводи МК](/logo.png)](/)
@@ -22,10 +22,12 @@ Official court-certified translation between Serbian and Macedonian — for lega
 
 [Јавете се: +389 75 252 097
 Call Now: +389 75 252 097](tel:+38975252097)
+[Погледнете ги сите наши услуги!
+See all our services!](/)
 
 3.000+Преведени странициPages translated
 
-50Рецензии со пет ѕвезди5-star reviews
+50+Рецензии со пет ѕвезди5-star reviews
 
 4 год.4 yrsВо работаIn operation
 
@@ -41,15 +43,15 @@ Serbian and Macedonian are related South Slavic languages, but they are not mutu
 
 Certification means more than accuracy. It means the translation has been prepared by a licensed court translator who signs a statement taking legal responsibility for the correctness of the translation. In North Macedonia, this licence is issued exclusively by the Ministry of Justice. Without it, a translation has no official standing, regardless of how well it is written.
 
-Овластениот судски преведувач во Судски Преводи МК ја поседува таа лиценца. Српско-македонскиот превод е една од основните услуги што се нудат, а изработката истиот ден важи и тука како и за сите јазични парови. Со над 4 години и повеќе од 3.000 преведени страници, услугата има потврдена репутација со 50 Рецензии со пет ѕвезди на Google.
+Овластениот судски преведувач во Судски Преводи МК ја поседува таа лиценца. Српско-македонскиот превод е една од основните услуги што се нудат, а изработката истиот ден важи и тука како и за сите јазични парови. Со над 4 години и повеќе од 3.000 преведени страници, услугата има потврдена репутација со 50+ Рецензии со пет ѕвезди на Google.
 
-The court translator at Sudski Prevodi MK holds that licence. Serbian–Macedonian translation is one of the core services offered, and the same-day turnaround applies here as to all language pairs. Over 4 years and more than 3,000 pages translated, the service has a proven track record confirmed by 50 five-star Google reviews.
+The court translator at Sudski Prevodi MK holds that licence. Serbian–Macedonian translation is one of the core services offered, and the same-day turnaround applies here as to all language pairs. Over 4 years and more than 3,000 pages translated, the service has a proven track record confirmed by 50+ five-star Google reviews.
 
 ## Чести барања за српско-македонски превод
 
 ## Common Serbian–Macedonian Translation Requests
 
-Српските документи често пристигнуваат во македонските институции граѓани на поранешните југословенски републики, фирми што работат прекугранично и лица со семејни или работни врски меѓу двете земји. Најчестите документи вклучуваат:
+Српските документи често пристигнуваат во македонските институции од граѓани на поранешните југословенски републики, фирми што работат прекугранично и лица со семејни или работни врски меѓу двете земји. Најчестите документи вклучуваат:
 
 Serbian documents frequently arrive at North Macedonian institutions by citizens of the former Yugoslav republics, businesses operating across borders, and individuals with family or employment connections between the two countries. The most common documents include:
 
@@ -235,3 +237,5 @@ SkopjeLocation page](/locations/skopje/)
 BitolaLocation page](/locations/bitola/)
 [ПрилепЛокациска страница
 PrilepLocation page](/locations/prilep/)
+[Турски ↔ МакедонскиДетали и цени за услугата
+Turkish ↔ MacedonianService details & pricing](/services/turkish-macedonian-translation/)

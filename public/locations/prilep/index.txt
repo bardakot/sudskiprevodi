@@ -1,8 +1,8 @@
 ---
-title: Овластен судски превод во Прилеп | Судски Преводи МК
-description: Официјален судски заверен превод за Прилеп. Англиски и српски на македонски. Услуга истиот ден, бесплатна достава. 300–400 МКД по страница.
+title: Судски Преводи МК | Прилеп
+description: Овластени судски преводи во Прилеп — правни, академски, деловни и лични документи, со бесплатна достава до вашата адреса.
 url: https://sudskiprevodimk.com/locations/prilep/
-last_updated: 2026-06-27
+last_updated: 2026-07-06
 ---
 
 [![Судски Преводи МК](/logo.png)](/)
@@ -22,10 +22,12 @@ Sudski Prevodi MK provides official court-certified document translations for cl
 
 [Јавете се: +389 75 252 097
 Call Now: +389 75 252 097](tel:+38975252097)
+[Погледнете ги сите наши услуги!
+See all our services!](/)
 
 3.000+Преведени странициPages translated
 
-50Рецензии со пет ѕвезди5-star reviews
+50+Рецензии со пет ѕвезди5-star reviews
 
 4 ч.4 hrsПросечно времеAverage turnaround
 
@@ -70,7 +72,7 @@ The certified court translator at Sudski Prevodi MK holds an official licence fr
 Per page    approx. 4.50–6.50 EUR
 
 Цената е по преведена страница и вклучува потпис и печат од овластен судски преведувач.Вклучена е бесплатна достава до вашата адреса во Прилеп.
-Price is per translated page and includes a signature and certified stamp from an authorized court translator. Free delivery to your Bitola address is included
+Price is per translated page and includes a signature and certified stamp from an authorized court translator. Free delivery to your Prilep address is included.
 
 ## Како клиентите од Прилеп ја користат услугата
 
@@ -124,10 +126,6 @@ The signed and certified document is delivered to your Prilep address at no char
 
 Да. Судски Преводи МК опслужува клиенти во Прилеп. Документите се праќаат онлајн, а готовиот заверен превод се доставува бесплатно до вашата адреса во Прилеп.Yes. Sudski Prevodi MK serves clients in Prilep. Documents are submitted online and the completed certified translation is delivered free of charge to your Prilep address.
 
-Дали преводите се прифаќаат во судовите и службите во Прилеп?Are translations accepted in Prilep courts and offices?
-
-Да. Сите преводи се заверени од овластен судски преведувач лиценциран од Министерството за правда на Северна Македонија. Тие се прифаќаат од сите судови, нотари и институции низ целата земја, вклучително и Прилеп.Yes. All translations are certified by an official court translator licensed by the Ministry of Justice of North Macedonia. They are accepted by all courts, notaries, and institutions across the country, including Prilep.
-
 Колку трае преводот за клиентите од Прилеп?How long does translation take for Prilep clients?
 
 Преводот се изработува во рок од неколку часа од приемот на документот. Завршување истиот ден е стандард. Времето на достава до Прилеп се потврдува при праќањето.The translation is completed within a few hours of receiving your document. Same-day completion is standard. Delivery time to Prilep is confirmed at the time of submission.
@@ -166,3 +164,5 @@ Serbian ↔ MacedonianService details & pricing](/services/serbian-macedonian-tr
 SkopjeTranslation services](/locations/skopje/)
 [БитолаПреведувачки услуги
 BitolaTranslation services](/locations/bitola/)
+[Турски ↔ МакедонскиДетали и цени за услугата
+Turkish ↔ MacedonianService details & pricing](/services/turkish-macedonian-translation/)
