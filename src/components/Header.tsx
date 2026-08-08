@@ -1,7 +1,13 @@
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import mkFlag from "@/assets/flags/mk.png";
 import gbFlag from "@/assets/flags/gb.png";
 import rsFlag from "@/assets/flags/rs.png";
@@ -101,6 +107,11 @@ const Header = () => {
       href: "#faq",
     },
   ];
+  const languagePages = [
+    { key: "enmk", href: "/services/english-macedonian-translation/" },
+    { key: "srmk", href: "/services/serbian-macedonian-translation/" },
+    { key: "trmk", href: "/services/turkish-macedonian-translation/" },
+  ];
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
@@ -142,6 +153,25 @@ const Header = () => {
               {t(`nav.${item.key}`)}
             </button>
           ))}
+
+          <DropdownMenu>
+            <DropdownMenuTrigger className="group flex items-center gap-1.5 text-sm font-medium text-foreground hover:text-primary data-[state=open]:text-primary transition-colors py-2 px-3 rounded-md outline-none focus-visible:ring-2 focus-visible:ring-ring">
+              {t("nav.languages")}
+              <ChevronDown
+                size={15}
+                className="transition-transform duration-200 group-data-[state=open]:rotate-180"
+              />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="min-w-[240px]">
+              {languagePages.map((page) => (
+                <DropdownMenuItem key={page.key} asChild>
+                  <a href={page.href} className="cursor-pointer">
+                    {t(`langPairs.${page.key}`)}
+                  </a>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
 
         {/* Language Switcher */}
@@ -201,6 +231,22 @@ const Header = () => {
                   {t(`nav.${item.key}`)}
                 </button>
               ))}
+
+              <div className="mt-2 pt-3 border-t border-border">
+                <p className="px-4 pb-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                  {t("nav.languages")}
+                </p>
+                {languagePages.map((page) => (
+                  <a
+                    key={page.key}
+                    href={page.href}
+                    onClick={() => setIsMenuOpen(false)}
+                    className="block text-base font-medium text-foreground hover:text-primary transition-colors py-3 px-4 rounded-lg hover:bg-muted/50 min-h-[48px] active:bg-muted/70 touch-manipulation"
+                  >
+                    {t(`langPairs.${page.key}`)}
+                  </a>
+                ))}
+              </div>
             </div>
           </motion.div>
         )}

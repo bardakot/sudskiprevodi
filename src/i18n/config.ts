@@ -10,6 +10,12 @@ const resources = {
         process: 'Translation Process',
         contact: 'Contact',
         faq: 'FAQ',
+        languages: 'Languages',
+      },
+      langPairs: {
+        enmk: 'English ↔ Macedonian',
+        srmk: 'Serbian ↔ Macedonian',
+        trmk: 'Turkish ↔ Macedonian',
       },
       hero: {
         title: 'Professional Legal Translation Services',
@@ -148,6 +154,12 @@ const resources = {
         process: 'Процесот на Преведување',
         contact: 'Контакт',
         faq: 'ЧПП',
+        languages: 'Јазици',
+      },
+      langPairs: {
+        enmk: 'Англиски ↔ Македонски',
+        srmk: 'Српски ↔ Македонски',
+        trmk: 'Турски ↔ Македонски',
       },
       hero: {
         title: 'Професионални Судски Преводи',
@@ -286,6 +298,12 @@ const resources = {
         process: 'Процес Превођења',
         contact: 'Контакт',
         faq: 'ЧПП',
+        languages: 'Језици',
+      },
+      langPairs: {
+        enmk: 'Енглески ↔ Македонски',
+        srmk: 'Српски ↔ Македонски',
+        trmk: 'Турски ↔ Македонски',
       },
       hero: {
         title: 'Професионалне Преводилачке Услуге',
