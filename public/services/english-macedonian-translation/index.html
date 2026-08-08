@@ -70,6 +70,44 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://sudskiprevodimk.com/#business",
+    "name": "Sudski Prevodi MK",
+    "url": "https://sudskiprevodimk.com",
+    "telephone": "+38975252097",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "50",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Viktorija Ilic" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Fast and professional response, excellent quality job at the reasonable price, and friendly disposition in collaboration. My sincere recommendation!"
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Ognen Manasovski" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Excellent, quick to respond to every request, and professional. Fully recommend him."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Nikola Krcovski" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Thank you, the translation was excellent, very helpful and additionally it was ready in just a few hours."
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {
@@ -129,9 +167,12 @@
 <a class="skip-link" href="#main"><span class="lang-mk">Кон содржината</span><span class="lang-en">Skip to content</span></a>
 
 <header class="site-header">
-  <a class="site-logo" href="/"><img src="/logo.png" alt="Судски Преводи МК" width="180" height="50" /></a>
+  <a class="site-logo" href="/">
+    <img src="/logo.png" alt="Судски Преводи МК" width="180" height="50" />
+    <span class="site-logo-label"><span class="lang-mk">Почетна</span><span class="lang-en">Home</span></span>
+  </a>
   <div class="header-right">
-    <a class="header-phone" href="tel:+38975252097">+389 75 252 097</a>
+    <a class="header-phone" href="tel:+38975252097"><span class="phone-icon" aria-hidden="true">🎧</span>+389 75 252 097</a>
     <div class="lang-switch">
       <button class="lang-btn" type="button" data-set-lang="mk" aria-label="Македонски" title="Македонски"><img src="/flags/mk.png" alt="MK" /></button>
       <button class="lang-btn" type="button" data-set-lang="en" aria-label="English" title="English"><img src="/flags/gb.png" alt="EN" /></button>
@@ -144,9 +185,9 @@
   <div class="hero-inner">
 
     <div class="reveal">
-      <p class="eyebrow"><span class="lang-mk">Англиски ↔ Македонски</span><span class="lang-en">English ↔ Macedonian</span></p>
-      <h1 class="lang-mk">Заверен превод што институциите го прифаќаат од прв пат</h1>
-      <h1 class="lang-en">A certified translation that is accepted the first time</h1>
+      <p class="eyebrow"><span class="lang-mk">Англиски <span class="pair-arrow" aria-hidden="true">⇄</span> Македонски</span><span class="lang-en">English <span class="pair-arrow" aria-hidden="true">⇄</span> Macedonian</span></p>
+      <h1 class="lang-mk">Заверен превод што го прифаќаат сите институции</h1>
+      <h1 class="lang-en">A certified translation that is accepted by all institutions</h1>
       <p class="hero-lede lang-mk">Официјален судски заверен превод помеѓу англиски и македонски, со потпис и печат од преведувач лиценциран од Министерството за правда. Поголемиот дел од документите се готови за неколку часа и се доставуваат бесплатно во Скопје, Битола и Прилеп.</p>
       <p class="hero-lede lang-en">Official court-certified translation between English and Macedonian, signed and stamped by a translator licensed by the Ministry of Justice. Most documents are ready within a few hours and delivered free of charge in Skopje, Bitola, and Prilep.</p>
       <div class="hero-actions">
@@ -284,7 +325,7 @@
       <p class="lang-en">The office is on Vladimir Komarov in Aerodrom, Skopje. Most documents arrive as a phone photo before ten in the morning — a diploma held flat on a kitchen table, a contract shot on a car bonnet outside a notary's office.</p>
       <p class="lang-mk">Текстот се преведува и се чита повторно, се додава изјавата за заверка, се потпишува и се печати. Истото попладне готовиот превод е кај клиентот.</p>
       <p class="lang-en">The text is translated and read back, the certification statement is added, signed, and stamped. The finished translation is with the client the same afternoon.</p>
-      <p class="story-who"><span class="lang-mk">Димитар Бардакоски · овластен судски преведувач</span><span class="lang-en">Dimitar Bardakoski · licensed court translator</span></p>
+      <p class="story-who"><span class="lang-mk">Овластен судски преведувач</span><span class="lang-en">Licensed court translator</span></p>
     </div>
   </section>
 
@@ -470,9 +511,9 @@
   <hr class="perf" />
 
   <!-- ============================ REVIEWS ============================
-       NOTE: placeholder copy written to the right shape and length.
-       Replace each quote and name with a real Google review before
-       this goes to production.
+       Verbatim Google reviews. The Macedonian column carries the
+       reviewer's own Macedonian wording where they left it, and a
+       translation otherwise.
        ============================================================ -->
   <section class="sec">
     <p class="eyebrow"><span class="lang-mk">Рецензии</span><span class="lang-en">Reviews</span></p>
@@ -481,22 +522,43 @@
     <div class="reviews">
       <figure class="review">
         <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-        <blockquote class="lang-mk">„Испратив скенирана диплома во девет наутро и заверениот превод го добив во канцеларија истиот ден по четири. Амбасадата го прифати без ниту едно прашање.“</blockquote>
-        <blockquote class="lang-en">“I sent a scanned diploma at nine in the morning and had the certified translation at my office the same day after four. The embassy accepted it without a single question.”</blockquote>
-        <figcaption><b>Ана М.</b> · <span class="lang-mk">Скопје</span><span class="lang-en">Skopje</span></figcaption>
+        <blockquote class="lang-mk">„Брз и професионален одговор, одлично завршена работа по разумна цена и пријатна соработка. Искрена препорака!“</blockquote>
+        <blockquote class="lang-en">“Fast and professional response, excellent quality job at the reasonable price, and friendly disposition in collaboration. My sincere recommendation!”</blockquote>
+        <figcaption><b>Viktorija Ilic</b> · <span class="lang-mk">Google рецензија</span><span class="lang-en">Google review</span></figcaption>
       </figure>
       <figure class="review">
         <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-        <blockquote class="lang-mk">„Работам како нотар и редовно ми требаат преводи на договори на англиски. Никогаш не сум чекал повеќе од еден ден, а цената останува иста и кога е итно.“</blockquote>
-        <blockquote class="lang-en">“I work as a notary and need English contract translations regularly. I have never waited more than a day, and the price stays the same even when it is urgent.”</blockquote>
-        <figcaption><b>Горан П.</b> · <span class="lang-mk">Битола</span><span class="lang-en">Bitola</span></figcaption>
+        <blockquote class="lang-mk">„Одлична и професионална услуга.“</blockquote>
+        <blockquote class="lang-en">“Excellent, quick to respond to every request, and professional. Fully recommend him.”</blockquote>
+        <figcaption><b>Ognen Manasovski</b> · <span class="lang-mk">Google рецензија</span><span class="lang-en">Google review</span></figcaption>
       </figure>
       <figure class="review">
         <div class="review-stars" aria-label="5 / 5">★★★★★</div>
-        <blockquote class="lang-mk">„Живеам во Прилеп и не морав никаде да одам. Го фотографирав изводот со телефон, а преводот ми беше доставен дома следниот ден.“</blockquote>
-        <blockquote class="lang-en">“I live in Prilep and did not have to go anywhere. I photographed the certificate with my phone and the translation was delivered to my home the next day.”</blockquote>
-        <figcaption><b>Елена С.</b> · <span class="lang-mk">Прилеп</span><span class="lang-en">Prilep</span></figcaption>
+        <blockquote class="lang-mk">„Ви благодарам, преводот беше одличен, многу корисен, а дополнително беше готов за само неколку часа.“</blockquote>
+        <blockquote class="lang-en">“Thank you, the translation was excellent, very helpful and additionally it was ready in just a few hours.”</blockquote>
+        <figcaption><b>Nikola Krcovski</b> · <span class="lang-mk">Google рецензија</span><span class="lang-en">Google review</span></figcaption>
       </figure>
+    </div>
+
+    <div class="map-panel">
+      <div class="map-bar">
+        <div class="map-rating">
+          <span class="map-score">5,0</span>
+          <span class="map-stars" aria-hidden="true">★★★★★</span>
+          <span class="map-count"><span class="lang-mk">50+ рецензии на Google</span><span class="lang-en">50+ reviews on Google</span></span>
+        </div>
+        <a class="map-link" href="https://maps.google.com/?cid=11514070457309463122" target="_blank" rel="noopener noreferrer">
+          <span class="lang-mk">Прочитајте ги сите на Google Maps</span>
+          <span class="lang-en">Read them all on Google Maps</span>
+        </a>
+      </div>
+      <iframe
+        class="map-frame"
+        title="Судски Преводи МК — ул. Владимир Комаров бр. 23, Аеродром, Скопје"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.513024286765!2d21.454937099999995!3d41.9892642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354158ffbd68c1d%3A0x9fca3213a6c00252!2sSudski%20Prevodi%20MK!5e0!3m2!1sen!2smk!4v1776718727422!5m2!1sen!2smk"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
 
@@ -555,8 +617,8 @@
       </div>
       <div class="contact-grid">
         <div class="contact-item">
-          <span class="contact-label"><span class="lang-mk">Телефон</span><span class="lang-en">Phone</span></span>
-          <span class="contact-value"><a href="tel:+38975252097">+389 75 252 097</a></span>
+          <span class="contact-label"><span class="lang-mk">Е-маил</span><span class="lang-en">Email</span></span>
+          <span class="contact-value"><a href="mailto:info@sudskiprevodi.mk">info@sudskiprevodi.mk</a></span>
         </div>
         <div class="contact-item">
           <span class="contact-label"><span class="lang-mk">Адреса</span><span class="lang-en">Address</span></span>

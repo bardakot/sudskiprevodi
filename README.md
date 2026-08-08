@@ -87,3 +87,32 @@ Walk me through exactly how to upload the llms.txt file we just
 created to the root of my site. Give me step-by-step instructions for
 my specific host. After I upload it, tell me how to confirm it's live
 by visiting the URL directly.
+
+
+Six things that I want you to improve:
+
+1. Can you all of the middle long dashes '-' When there is a sub title add a `golden feather emoji` that blends with the background, when you are numbering multiple things replace it with bullter points (full circle)
+2. Remove Dimitar Bardakoski in `Како изгледа еден работен ден`
+3. Remove the review replace with three real ones, and also can they be integrated in some how with google maps? like the maps we have in the main page.
+
+
+
+1. Viktorija Ilic
+5 stars
+Fast and professional response, excellent quality job at the reasonable price, and friendly disposition in collaboration. My sincere recommendation!
+
+2.Ognen Manasovski
+5 stars
+Excellent, quick to respond to every request, and professional. Fully recommend him.
+
+Одлична и професионална услуга.
+
+3. Nikola krcovski
+5 stars
+Thank you, the translation was excellent, very helpful and additionally it was ready in just a few hours.
+
+4. Add a headphone emoji next to the number in the footer at the top where the translations are.
+
+5. Add 'Почетна' to the logo in the footer, and both of them to be the same button which will redirect me to the home page
+
+6. Above `Заверен превод што го прифаќаат сите институции` between English and macedonian there is a double sided arrow which small, make it bigger and more visible or if not change it with something else.
