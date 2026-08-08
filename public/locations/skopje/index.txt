@@ -2,7 +2,7 @@
 title: Судски Преводи МК | Скопје
 description: Професионални судски преводи на правни, академски, деловни и други видови на документи
 url: https://sudskiprevodimk.com/locations/skopje/
-last_updated: 2026-07-06
+last_updated: 2026-08-08
 ---
 
 [![Судски Преводи МК](/logo.png)](/)

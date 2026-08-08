@@ -2,7 +2,7 @@
 title: Судски Преводи МК | Турски–Македонски
 description: Овластен судски превод од турски на македонски и обратно — за правни, службени, академски и лични документи, со потпис и печат од овластен судски преведувач.
 url: https://sudskiprevodimk.com/services/turkish-macedonian-translation/
-last_updated: 2026-07-06
+last_updated: 2026-08-08
 ---
 
 [![Судски Преводи МК](/logo.png)](/)
