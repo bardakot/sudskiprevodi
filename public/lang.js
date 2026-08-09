@@ -1,16 +1,34 @@
 (function () {
-  // ---- Language toggle (MK default, EN optional) ----
-  function setLang(lang) {
-    if (lang !== 'en') lang = 'mk';
+  // ---- Language toggle ----
+  // MK is the default everywhere. Which other languages a page offers is
+  // read off the page itself: every [data-set-lang] button declares one.
+  // The English pages offer EN; the Turkish page also offers TR, the
+  // Serbian page also offers SR. A stored preference that a page does not
+  // offer is left in storage untouched and simply not applied there.
+  function pageLangs() {
+    var langs = { mk: true };
+    document.querySelectorAll('[data-set-lang]').forEach(function (btn) {
+      var l = btn.getAttribute('data-set-lang');
+      if (l) langs[l] = true;
+    });
+    return langs;
+  }
+
+  function applyLang(lang) {
     document.documentElement.setAttribute('data-lang', lang);
     document.documentElement.setAttribute('lang', lang);
+  }
+
+  function setLang(lang) {
+    if (!pageLangs()[lang]) lang = 'mk';
+    applyLang(lang);
     try { localStorage.setItem('spm-lang', lang); } catch (e) {}
   }
 
   // Apply any stored preference (also handled inline in <head> to avoid flicker).
   try {
     var stored = localStorage.getItem('spm-lang');
-    if (stored === 'en') setLang('en');
+    if (stored && stored !== 'mk' && pageLangs()[stored]) applyLang(stored);
   } catch (e) {}
 
   document.addEventListener('click', function (e) {

@@ -104,7 +104,7 @@ const resources = {
         questions: {
           q1: {
             q: 'How long does a translation take?',
-            a: 'The translation time depends on the complexity and volume of the material, but typically for smaller volumes of documents, the translation will be ready the next day, and for larger volumes, it will be completed within 3 days. Additionally, due to urgency, a shorter deadline for translation can be arranged.',
+            a: 'Most documents are translated the same day, within a few hours of being sent to us. In any case, a translation can never take more than 1 day.',
           },
           q2: {
             q: 'Are your translations institutionally recognized domestically and abroad?',
@@ -127,8 +127,8 @@ const resources = {
             a: 'We provide free delivery of your translated documents to your address and additionally deliver them to you electronically.',
           },
           q7: {
-            q: 'How much does translation of one document cost?',
-            a: 'The price for document translation depends on the document type, complexity, volume, and urgency of the translation. Contact us for the best personalized offer, based on your specific needs.',
+            q: 'Is my personal data contained in the documents protected?',
+            a: 'Yes, all your personal data contained in your documents is fully protected and is not shared with anyone.',
           },
         },
       },
@@ -248,7 +248,7 @@ const resources = {
         questions: {
           q1: {
             q: 'Колку време трае еден превод?',
-            a: 'Времетраењето на преведувањето на вашите документи зависи од комплексноста и обемноста на материјалот, но најчесто доколку се работи за помал обем на документи, преводот ќе биде готов веќе наредниот ден, а доколку станува збор за поголем обем на документи, тогаш истите ќе бидат преведени во рок од 3 дена. Дополнително, поради итност, може да биде договорен и пократок рок за преведување.',
+            a: 'Најчесто документите се преведуваат истиот ден, за неколку часа од кога ќе бидат испратени. Во секој случај преводот не може да трае повеќе од 1 ден.',
           },
           q2: {
             q: 'Дали вашите преводи се институционално признати во земјата и во странство?',
@@ -271,8 +271,8 @@ const resources = {
             a: 'Вршиме бесплатна достава на вашите преведени документи, на ваша адреса и истите дополнително ви ги доставуваме и електронски.',
           },
           q7: {
-            q: 'Колку чини превод на еден документ?',
-            a: 'Цената за превод на документи зависи од типот на документот, комплексноста, обемноста и итноста на преводот. Контактирајте нè за најдобра пресонализирана понуда, базирана на вашите специфични потреби.',
+            q: 'Дали моите лични податоци кои се наоѓаат на документите се заштитени?',
+            a: 'Да, сите Ваши лични податоци кои се наоѓаат на Вашите документи се заштитени во целост и не се споделуваат со никого.',
           },
         },
       },
@@ -392,7 +392,7 @@ const resources = {
         questions: {
           q1: {
             q: 'Колико времена траје један превод?',
-            a: 'Трајање превођења ваших докумената зависи од сложености и обима материјала, али најчешће ако се ради о мањем обиму докумената, превод ће бити готов већ следећег дана, а ако је реч о већем обиму докумената, онда ће исти бити преведени у року од 3 дана. Додатно, због хитности, може се договорити и краћи рок за превођење.',
+            a: 'Најчешће се документи преводе истог дана, за неколико сати од тренутка када нам буду послати. У сваком случају, превод не може трајати дуже од 1 дана.',
           },
           q2: {
             q: 'Да ли су ваши преводи институционално признати у земљи и иностранству?',
@@ -415,8 +415,8 @@ const resources = {
             a: 'Вршимо бесплатну доставу ваших преведених докумената, на вашу адресу и исте додатно вам достављамо и електронски.',
           },
           q7: {
-            q: 'Колико кошта превод једног документа?',
-            a: 'Цена за превод докумената зависи од типа документа, сложености, обима и хитности превода. Контактирајте нас за најбољу персонализовану понуду, базирану на вашим специфичним потребама.',
+            q: 'Да ли су моји лични подаци који се налазе на документима заштићени?',
+            a: 'Да, сви Ваши лични подаци који се налазе на Вашим документима у потпуности су заштићени и не деле се ни са ким.',
           },
         },
       },

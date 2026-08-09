@@ -4,11 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Судски Преводи МК | Српски–Македонски</title>
-  <meta name="description" content="Судски преводи од српски на македонски и од македонски на српски за договори, дипломи, лични и деловни документи, со заверка од овластен судски преведувач." />
+  <meta name="description" content="Заверен судски превод од српски на македонски и обратно — правни, академски, деловни и лични документи, изготвен од овластен судски преведувач." />
   <link rel="canonical" href="https://sudskiprevodimk.com/services/serbian-macedonian-translation/" />
   <link rel="icon" type="image/png" href="/favicon.png" />
-  <link rel="stylesheet" href="/shared.css" />
-  <script>try{if(localStorage.getItem('spm-lang')==='en'){document.documentElement.setAttribute('data-lang','en');document.documentElement.setAttribute('lang','en');}}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/services/serbian-macedonian-translation/style.css" />
+  <script>try{var l=localStorage.getItem('spm-lang');if(l==='en'||l==='sr'){document.documentElement.setAttribute('data-lang',l);document.documentElement.setAttribute('lang',l);}}catch(e){}</script>
+
+  <!--
+    ART DIRECTION NOTE — shared style line for any future photography.
+    Append this to every image prompt so the set stays consistent:
+
+    "Shot in a dim office lit by one warm desk lamp from the left, deep
+    blue-charcoal shadows, a single warm gold highlight on paper and brass,
+    no other colour in frame; 50mm, shallow depth of field, matte finish,
+    fine grain, no text legible, no faces."
+  -->
 
   <script type="application/ld+json">
   {
@@ -17,13 +29,30 @@
     "@id": "https://sudskiprevodimk.com/services/serbian-macedonian-translation/#service",
     "name": "Заверен превод од српски на македонски",
     "serviceType": "Заверен правен превод",
-    "description": "Официјален судски заверен превод на правни, академски, деловни и лични документи од српски на македонски и од македонски на српски. Лиценциран од Министерството за правда на Северна Македонија. Изработка истиот ден. Бесплатна достава.",
+    "description": "Официјален судски заверен превод на правни, академски, деловни и лични документи од српски на македонски и од македонски на српски. Лиценциран од Министерството за правда на Северна Македонија. Изработка истиот ден. Бесплатна достава до Скопје, Битола и Прилеп.",
     "provider": {
       "@type": "ProfessionalService",
       "name": "Sudski Prevodi MK",
       "telephone": "+38975252097",
-      "url": "https://sudskiprevodimk.com"
+      "url": "https://sudskiprevodimk.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Vladimir Komarov st. no.23",
+        "addressLocality": "Skopje",
+        "addressRegion": "Aerodrom",
+        "addressCountry": "MK"
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "07:30",
+        "closes": "21:30"
+      }]
     },
+    "availableLanguage": [
+      { "@type": "Language", "name": "Serbian", "alternateName": "sr" },
+      { "@type": "Language", "name": "Macedonian", "alternateName": "mk" }
+    ],
     "areaServed": [
       { "@type": "City", "name": "Skopje" },
       { "@type": "City", "name": "Bitola" },
@@ -45,6 +74,44 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://sudskiprevodimk.com/#business",
+    "name": "Sudski Prevodi MK",
+    "url": "https://sudskiprevodimk.com",
+    "telephone": "+38975252097",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "50",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Nikola Jagurinoski" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Беше потребен превод на решение од централен регистар и ми го донесоа за неколку часа дома. Бравос"
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Angela Veziroska" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Преведените документи беа без технички грешки и немаше потреба од никакви корекции. Ви благодарам!"
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Dejan Stojkov" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "reviewBody": "Благодарам на услугата и итноста"
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {
@@ -60,15 +127,15 @@
         "name": "Колку чини превод од српски на македонски?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Од 300 до 400 денари по страница, приближно 4,50 до 6,50 ЕУР. Бесплатната достава е вклучена."
+          "text": "Помеѓу 300 и 400 денари по страница, приближно 4,50 до 6,50 ЕУР. Конечната цена зависи од должината и видот на документот."
         }
       },
       {
         "@type": "Question",
-        "name": "Колку трае преводот од српски на македонски?",
+        "name": "Колку трае превод од српски на македонски?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Повеќето преводи се изработуваат во рок од неколку часа. Максималното време за изработка е еден ден."
+          "text": "Поголемиот дел од преводите се изработуваат во рок од неколку часа од приемот на документот. Максималното време на изработка е еден ден."
         }
       },
       {
@@ -76,23 +143,31 @@
         "name": "Кои српски документи најчесто се преведуваат на македонски?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Судски решенија, дипломи, изводи од матична книга на родени и венчани, документи за вработување, деловни договори и нотарски акти се најчестите барања."
+          "text": "Судски решенија, дипломи, изводи од матична книга на родени и венчани, документи за вработување, деловни договори, пензиски документи и нотарски акти се најчестите барања."
         }
       },
       {
         "@type": "Question",
-        "name": "Дали преводот важи и за употреба во Србија?",
+        "name": "Дали морам да го испратам оригиналниот српски документ или е доволен скен?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Заверката ја издава овластен судски преведувач лиценциран од Министерството за правда на Северна Македонија. За употреба конкретно во Србија, најдобро е да проверите со институцијата примач дали се прифаќа северномакедонска заверка."
+          "text": "Фотографија или скен е доволно за да започне и да се изработи преводот. Оригиналниот документ не е потребен за повеќето преводни цели."
         }
       },
       {
         "@type": "Question",
-        "name": "Дали морам да го испратам оригиналниот српски документ?",
+        "name": "Дали заверениот превод се прифаќа од македонските институции?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Не. Јасен скен или фотографија од документот е доволна за превод. Оригиналниот документ не е потребен во повеќето случаи."
+          "text": "Да. Заверката ја издава овластен судски преведувач лиценциран од Министерството за правда на Северна Македонија и се прифаќа од сите судови, нотари, факултети и државни институции во земјата."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Дали со Вашиот превод на моите документи можам да аплицирам за студирање во странство?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да. Вашиот пасош, диплома, извод од матична книга на родените, уверение за државјанство, CV и препораки ќе бидат професионално и правилно преведени од наша страна, без технички грешки, за Вашата апликација да биде успешна!"
         }
       }
     ]
@@ -101,289 +176,592 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main"><span class="lang-mk">Кон содржината</span><span class="lang-en">Skip to content</span><span class="lang-sr">Pređi na sadržaj</span></a>
+
 <header class="site-header">
-  <a class="site-logo" href="/"><img src="/logo.png" alt="Судски Преводи МК" /></a>
-  <div class="lang-switch">
-    <button class="lang-btn" type="button" data-set-lang="mk" aria-label="Македонски" title="Македонски"><img src="/flags/mk.png" alt="MK" /></button>
-    <button class="lang-btn" type="button" data-set-lang="en" aria-label="English" title="English"><img src="/flags/gb.png" alt="EN" /></button>
+  <a class="site-logo" href="/">
+    <img src="/logo.png" alt="Судски Преводи МК" width="180" height="50" />
+    <span class="site-logo-label"><span class="lang-mk">Почетна</span><span class="lang-en">Home</span><span class="lang-sr">Početna</span></span>
+  </a>
+  <div class="header-right">
+    <a class="header-phone" href="tel:+38975252097"><span class="phone-icon" aria-hidden="true">☎️</span>+389 75 252 097</a>
+    <div class="lang-switch">
+      <button class="lang-btn" type="button" data-set-lang="mk" aria-label="Македонски" title="Македонски"><img src="/flags/mk.png" alt="MK" /></button>
+      <button class="lang-btn" type="button" data-set-lang="en" aria-label="English" title="English"><img src="/flags/gb.png" alt="EN" /></button>
+      <button class="lang-btn" type="button" data-set-lang="sr" aria-label="Srpski" title="Srpski"><img src="/flags/rs.png" alt="SR" /></button>
+    </div>
   </div>
 </header>
 
+<!-- ============================ HERO ============================ -->
 <div class="hero">
   <div class="hero-inner">
-    <span class="hero-tag"><span class="lang-mk">Услуга</span><span class="lang-en">Service</span></span>
-    <h1 class="lang-mk">Заверен превод од српски на македонски</h1>
-    <h1 class="lang-en">Certified Serbian to Macedonian Translation</h1>
-    <p class="lang-mk">Официјален судски заверен превод меѓу српски и македонски — за правни, академски, деловни и лични документи. Лиценциран од Министерството за правда на Северна Македонија. Изработка истиот ден. Бесплатна достава.</p>
-    <p class="lang-en">Official court-certified translation between Serbian and Macedonian — for legal, academic, business, and personal documents. Licensed by the Ministry of Justice of North Macedonia. Same-day turnaround. Free delivery.</p>
-    <div class="hero-actions">
-      <a href="tel:+38975252097" class="hero-cta">
-        <span class="lang-mk">Јавете се: +389 75 252 097</span>
-        <span class="lang-en">Call Now: +389 75 252 097</span>
-      </a>
-      <a href="/" class="hero-cta hero-cta-services">
-        <span class="lang-mk">Погледнете ги сите наши услуги!</span>
-        <span class="lang-en">See all our services!</span>
-      </a>
+
+    <div class="reveal">
+      <p class="eyebrow"><span class="lang-mk">Српски <span class="pair-arrow" aria-hidden="true">⇄</span> Македонски</span><span class="lang-en">Serbian <span class="pair-arrow" aria-hidden="true">⇄</span> Macedonian</span><span class="lang-sr">Srpski <span class="pair-arrow" aria-hidden="true">⇄</span> Makedonski</span></p>
+      <h1 class="lang-mk">Заверен превод што го прифаќаат сите институции</h1>
+      <h1 class="lang-en">A certified translation that is accepted by all institutions</h1>
+      <h1 class="lang-sr">Overeni prevod koji prihvataju sve institucije</h1>
+      <p class="hero-lede lang-mk">Официјален судски заверен превод помеѓу српски и македонски, со потпис и печат од преведувач лиценциран од Министерството за правда. Поголемиот дел од документите се готови за неколку часа и се доставуваат бесплатно во Скопје, Битола и Прилеп.</p>
+      <p class="hero-lede lang-en">Official court-certified translation between Serbian and Macedonian, signed and stamped by a translator licensed by the Ministry of Justice. Most documents are ready within a few hours and delivered free of charge in Skopje, Bitola, and Prilep.</p>
+      <p class="hero-lede lang-sr">Zvanični sudski overen prevod između srpskog i makedonskog, sa potpisom i pečatom prevodioca licenciranog od Ministarstva pravde. Većina dokumenata je gotova za nekoliko sati i dostavlja se besplatno u Skoplju, Bitolju i Prilepu.</p>
+      <div class="hero-actions">
+        <a href="tel:+38975252097" class="btn btn-primary">
+          <span class="lang-mk">Јавете се: +389 75 252 097</span>
+          <span class="lang-en">Call: +389 75 252 097</span>
+          <span class="lang-sr">Pozovite: +389 75 252 097</span>
+        </a>
+        <a href="#price" class="btn btn-ghost">
+          <span class="lang-mk">Цена и рок</span>
+          <span class="lang-en">Price and turnaround</span>
+          <span class="lang-sr">Cena i rok</span>
+        </a>
+      </div>
+      <!-- The booking line -->
+      <p class="booking-line lang-mk">Испратете фотографија од документот на телефон — без доаѓање во канцеларија, без оригинал, а цената ја потврдувате пред да започне работата.</p>
+      <p class="booking-line lang-en">Send a phone photo of the document — no office visit, no original needed, and you confirm the price before any work starts.</p>
+      <p class="booking-line lang-sr">Pošaljite fotografiju dokumenta telefonom — bez dolaska u kancelariju, bez originala, a cenu potvrđujete pre nego što posao počne.</p>
+    </div>
+
+    <!-- ---- Signature element: the thing you actually receive ---- -->
+    <div class="plate-wrap reveal reveal-2">
+      <div class="plate">
+        <svg class="plate-guilloche" aria-hidden="true" focusable="false">
+          <defs>
+            <pattern id="gl-wave" width="64" height="64" patternUnits="userSpaceOnUse" patternTransform="rotate(14)">
+              <g fill="none" stroke="oklch(0.805 0.145 86 / 0.16)" stroke-width="0.7">
+                <path d="M0 16 Q 16 -6 32 16 T 64 16" />
+                <path d="M0 32 Q 16 10 32 32 T 64 32" />
+                <path d="M0 48 Q 16 26 32 48 T 64 48" />
+                <path d="M0 16 Q 16 38 32 16 T 64 16" />
+                <path d="M0 32 Q 16 54 32 32 T 64 32" />
+                <path d="M0 48 Q 16 70 32 48 T 64 48" />
+              </g>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#gl-wave)" />
+        </svg>
+
+        <div class="plate-head">
+          <span><span class="lang-mk">Заверен превод</span><span class="lang-en">Certified translation</span><span class="lang-sr">Overeni prevod</span></span>
+          <span class="plate-ref">SR → MK</span>
+        </div>
+
+        <div class="plate-pair">
+          <p class="plate-lang"><span class="lang-mk">Оригинал · српски</span><span class="lang-en">Source · Serbian</span><span class="lang-sr">Izvornik · srpski</span></p>
+          <p class="plate-src">„Ovim se potvrđuje da je gore navedeno lice rođeno 14. marta 1994. godine u Novom Sadu.“</p>
+
+          <div class="plate-rule"><span>MK</span></div>
+
+          <p class="plate-lang"><span class="lang-mk">Превод · македонски</span><span class="lang-en">Target · Macedonian</span><span class="lang-sr">Prevod · makedonski</span></p>
+          <p class="plate-tgt">„Се потврдува дека горенаведеното лице е родено на 14 март 1994 година во Нови Сад.“</p>
+        </div>
+
+        <div class="plate-cert">
+          <svg class="plate-seal" viewBox="0 0 120 120" role="img" aria-label="Печат на овластен судски преведувач">
+            <g fill="none" stroke="oklch(0.805 0.145 86)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M 104.00 60.00 A 3.60 3.60 0 0 1 102.72 70.53 A 3.60 3.60 0 0 1 98.96 80.45 A 3.60 3.60 0 0 1 92.93 89.18 A 3.60 3.60 0 0 1 84.99 96.21 A 3.60 3.60 0 0 1 75.60 101.14 A 3.60 3.60 0 0 1 65.30 103.68 A 3.60 3.60 0 0 1 54.70 103.68 A 3.60 3.60 0 0 1 44.40 101.14 A 3.60 3.60 0 0 1 35.01 96.21 A 3.60 3.60 0 0 1 27.07 89.18 A 3.60 3.60 0 0 1 21.04 80.45 A 3.60 3.60 0 0 1 17.28 70.53 A 3.60 3.60 0 0 1 16.00 60.00 A 3.60 3.60 0 0 1 17.28 49.47 A 3.60 3.60 0 0 1 21.04 39.55 A 3.60 3.60 0 0 1 27.07 30.82 A 3.60 3.60 0 0 1 35.01 23.79 A 3.60 3.60 0 0 1 44.40 18.86 A 3.60 3.60 0 0 1 54.70 16.32 A 3.60 3.60 0 0 1 65.30 16.32 A 3.60 3.60 0 0 1 75.60 18.86 A 3.60 3.60 0 0 1 84.99 23.79 A 3.60 3.60 0 0 1 92.93 30.82 A 3.60 3.60 0 0 1 98.96 39.55 A 3.60 3.60 0 0 1 102.72 49.47 A 3.60 3.60 0 0 1 104.00 60.00 Z" />
+              <circle cx="60" cy="60" r="38" stroke-opacity="0.55" />
+              <circle cx="60" cy="60" r="35" stroke-opacity="0.3" />
+              <circle cx="60" cy="60" r="23" stroke-opacity="0.55" />
+              <path d="M48 60 h24 M60 48 v24" stroke-opacity="0.28" />
+              <path d="M52 57 h16 M52 63 h16" stroke-opacity="0.75" />
+            </g>
+            <text x="60" y="74" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="9" font-weight="600" letter-spacing="1" fill="oklch(0.805 0.145 86)">SR·MK</text>
+          </svg>
+
+          <div>
+            <p class="plate-cert-text lang-mk">Потврдувам дека овој превод е верен на оригиналниот документ и изготвен без технички грешки.</p>
+            <p class="plate-cert-text lang-en">I certify that this translation is a true rendering of the original document and free of technical errors.</p>
+            <p class="plate-cert-text lang-sr">Potvrđujem da je ovaj prevod veran originalnom dokumentu i izrađen bez tehničkih grešaka.</p>
+            <p class="plate-sign"><span class="lang-mk">Овластен судски преведувач · потпис</span><span class="lang-en">Licensed court translator · signature</span><span class="lang-sr">Ovlašćeni sudski tumač · potpis</span></p>
+          </div>
+        </div>
+      </div>
+      <p class="plate-note"><span class="lang-mk">Примерок · не е вистински документ</span><span class="lang-en">Specimen · not a real record</span><span class="lang-sr">Primerak · nije stvarni dokument</span></p>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================ DOCKET ============================ -->
+<div class="docket">
+  <div class="docket-inner reveal reveal-3">
+    <div class="docket-cell">
+      <span class="docket-num">3.000+</span>
+      <span class="docket-label"><span class="lang-mk">Преведени страници</span><span class="lang-en">Pages translated</span><span class="lang-sr">Prevedenih stranica</span></span>
+    </div>
+    <div class="docket-cell">
+      <span class="docket-num">50+</span>
+      <span class="docket-label"><span class="lang-mk">Рецензии со пет ѕвезди</span><span class="lang-en">Five-star reviews</span><span class="lang-sr">Recenzija sa pet zvezdica</span></span>
+    </div>
+    <div class="docket-cell">
+      <span class="docket-num">4</span>
+      <span class="docket-label"><span class="lang-mk">Години работа</span><span class="lang-en">Years in operation</span><span class="lang-sr">Godine rada</span></span>
+    </div>
+    <div class="docket-cell">
+      <span class="docket-num"><span class="lang-mk">Ист ден</span><span class="lang-en">Same day</span><span class="lang-sr">Isti dan</span></span>
+      <span class="docket-label"><span class="lang-mk">Вообичаен рок на изработка</span><span class="lang-en">Typical turnaround</span><span class="lang-sr">Uobičajen rok izrade</span></span>
     </div>
   </div>
 </div>
 
-<main>
+<main id="main">
 
-  <div class="stats-strip">
-    <div class="stat"><span class="stat-num">3.000+</span><span class="stat-label"><span class="lang-mk">Преведени страници</span><span class="lang-en">Pages translated</span></span></div>
-    <div class="stat"><span class="stat-num">50+</span><span class="stat-label"><span class="lang-mk">Рецензии со пет ѕвезди</span><span class="lang-en">5-star reviews</span></span></div>
-    <div class="stat"><span class="stat-num"><span class="lang-mk">4 год.</span><span class="lang-en">4 yrs</span></span><span class="stat-label"><span class="lang-mk">Во работа</span><span class="lang-en">In operation</span></span></div>
-  </div>
+  <!-- ============================ THESIS ============================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Заверка</span><span class="lang-en">Certification</span><span class="lang-sr">Overa</span></p>
+    <p class="thesis lang-mk">
+      <span class="t-quiet">Секој може да ги преведе зборовите.</span>
+      <span class="t-loud">Само овластен судски преведувач може да <span class="t-accent">се потпише</span> за нив.</span>
+    </p>
+    <p class="thesis lang-en">
+      <span class="t-quiet">Anyone can translate the words.</span>
+      <span class="t-loud">Only a licensed court translator can <span class="t-accent">sign</span> for them.</span>
+    </p>
+    <p class="thesis lang-sr">
+      <span class="t-quiet">Reči može svako da prevede.</span>
+      <span class="t-loud">Samo ovlašćeni sudski tumač može da se <span class="t-accent">potpiše</span> za njih.</span>
+    </p>
 
-  <div class="content-section">
-    <h2 class="lang-mk">Што е заверен српско-македонски превод?</h2>
-    <h2 class="lang-en">What Is a Certified Serbian–Macedonian Translation?</h2>
-    <p class="lang-mk">Српскиот и македонскиот се сродни јужнословенски јазици, но во официјален контекст не се признаваат меѓусебно како правно еднакви. При поднесување на документ на српски јазик до македонски суд, државна институција, нотар или факултет — или обратно — потребен е официјален заверен превод.</p>
-    <p class="lang-en">Serbian and Macedonian are related South Slavic languages, but they are not mutually recognised as legally equivalent in official contexts. When submitting a Serbian-language document to a North Macedonian court, government office, notary, or university — or vice versa — an official certified translation is required.</p>
-    <p class="lang-mk">Заверката значи повеќе од точност. Тоа значи дека преводот е изработен од овластен судски преведувач кој потпишува изјава со која презема правна одговорност за точноста на преводот. Во Северна Македонија, оваа лиценца ја издава исклучиво Министерството за правда. Без неа, преводот нема официјална важност, без оглед на тоа колку добро е напишан.</p>
-    <p class="lang-en">Certification means more than accuracy. It means the translation has been prepared by a licensed court translator who signs a statement taking legal responsibility for the correctness of the translation. In North Macedonia, this licence is issued exclusively by the Ministry of Justice. Without it, a translation has no official standing, regardless of how well it is written.</p>
-    <p class="lang-mk">Овластениот судски преведувач во Судски Преводи МК ја поседува таа лиценца. Српско-македонскиот превод е една од основните услуги што се нудат, а изработката истиот ден важи и тука како и за сите јазични парови. Со над 4 години и повеќе од 3.000 преведени страници, услугата има потврдена репутација со 50+ Рецензии со пет ѕвезди на Google.</p>
-    <p class="lang-en">The court translator at Sudski Prevodi MK holds that licence. Serbian–Macedonian translation is one of the core services offered, and the same-day turnaround applies here as to all language pairs. Over 4 years and more than 3,000 pages translated, the service has a proven track record confirmed by 50+ five-star Google reviews.</p>
-  </div>
+    <div class="cols">
+      <div>
+        <p class="lang-mk">Обичниот превод го пренесува текстот. Заверениот оди подалеку: го потпишува овластен судски преведувач кој потврдува дека содржината е целосна и точна репродукција на оригиналот — и кој е <strong>професионално и правно одговорен</strong> за таа изјава.</p>
+        <p class="lang-en">A regular translation converts the text. A certified one goes further: it is signed by an official court translator who attests that the content is a complete and accurate rendering of the original — and who is <strong>professionally and legally accountable</strong> for that statement.</p>
+        <p class="lang-sr">Običan prevod prenosi tekst. Overeni ide dalje: potpisuje ga ovlašćeni sudski tumač koji potvrđuje da je sadržaj potpuna i tačna reprodukcija originala — i koji je za tu izjavu <strong>profesionalno i pravno odgovoran</strong>.</p>
+      </div>
+      <div>
+        <p class="lang-mk">Иако српскиот и македонскиот се сродни јазици, судовите, нотарските канцеларии, факултетите и државните институции во Северна Македонија прифаќаат само преводи со заверка од лиценциран преведувач. Лиценцата ја издава Министерството за правда — без неа, преводот не е правно валиден.</p>
+        <p class="lang-en">Serbian and Macedonian are closely related, but courts, notarial offices, universities, and government bodies in North Macedonia still accept only translations bearing a licensed translator's certification. That licence is issued by the Ministry of Justice — without it a translation is not legally valid.</p>
+        <p class="lang-sr">Iako su srpski i makedonski srodni jezici, sudovi, notarske kancelarije, fakulteti i državne institucije u Severnoj Makedoniji prihvataju isključivo prevode sa overom licenciranog tumača. Licencu izdaje Ministarstvo pravde — bez nje prevod nije pravno valjan.</p>
+      </div>
+    </div>
+  </section>
 
-  <div class="content-section">
-    <h2 class="lang-mk">Чести барања за српско-македонски превод</h2>
-    <h2 class="lang-en">Common Serbian–Macedonian Translation Requests</h2>
-    <p class="lang-mk">Српските документи често пристигнуваат во македонските институции од граѓани на поранешните југословенски републики, фирми што работат прекугранично и лица со семејни или работни врски меѓу двете земји. Најчестите документи вклучуваат:</p>
-    <p class="lang-en">Serbian documents frequently arrive at North Macedonian institutions by citizens of the former Yugoslav republics, businesses operating across borders, and individuals with family or employment connections between the two countries. The most common documents include:</p>
-    <ul>
+  <hr class="perf" />
+
+  <!-- ============================ STORY ============================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Канцеларијата</span><span class="lang-en">The office</span><span class="lang-sr">Kancelarija</span></p>
+    <h2 class="lang-mk">Како изгледа еден работен ден</h2>
+    <h2 class="lang-en">What a working day looks like</h2>
+    <h2 class="lang-sr">Kako izgleda jedan radni dan</h2>
+    <div class="story">
+      <p class="lang-mk">Канцеларијата е на Владимир Комаров во Аеродром, Скопје. Најголемиот дел од документите пристигнуваат како фотографија од телефон пред десет наутро — диплома придржана рамно на кујнска маса, договор сликан на хауба пред нотарска канцеларија.</p>
+      <p class="lang-en">The office is on Vladimir Komarov in Aerodrom, Skopje. Most documents arrive as a phone photo before ten in the morning — a diploma held flat on a kitchen table, a contract shot on a car bonnet outside a notary's office.</p>
+      <p class="lang-sr">Kancelarija je u Ulici Vladimira Komarova, u opštini Aerodrom u Skoplju. Većina dokumenata stiže kao fotografija sa telefona pre deset ujutru — diploma položena na kuhinjski sto, ugovor slikan na haubi automobila ispred notarske kancelarije.</p>
+      <p class="lang-mk">Текстот се преведува и се чита повторно, се додава изјавата за заверка, се потпишува и се печати. Истото попладне готовиот превод е кај клиентот.</p>
+      <p class="lang-en">The text is translated and read back, the certification statement is added, signed, and stamped. The finished translation is with the client the same afternoon.</p>
+      <p class="lang-sr">Tekst se prevodi i ponovo čita, dodaje se izjava o overi, potpisuje se i pečatira. Istog popodneva gotov prevod je kod klijenta.</p>
+      <p class="story-who"><span class="lang-mk">Овластен судски преведувач</span><span class="lang-en">Licensed court translator</span><span class="lang-sr">Ovlašćeni sudski tumač</span></p>
+    </div>
+  </section>
+
+  <hr class="perf" />
+
+  <!-- ============================ DOCUMENTS ============================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Документи</span><span class="lang-en">Documents</span><span class="lang-sr">Dokumenti</span></p>
+    <h2 class="lang-mk">Што може да се преведе и завери</h2>
+    <h2 class="lang-en">What can be translated and certified</h2>
+    <h2 class="lang-sr">Šta se može prevesti i overiti</h2>
+    <ul class="doclist">
       <li class="lang-mk">Судски решенија и пресуди од српски судови</li>
       <li class="lang-en">Court decisions and judgements from Serbian courts</li>
-      <li class="lang-mk">Академски дипломи од српски факултети</li>
-      <li class="lang-en">Academic diplomas from Serbian universities</li>
-      <li class="lang-mk">Изводи од матична книга на родени, умрени и венчани издадени во Србија</li>
-      <li class="lang-en">Birth, death, and marriage certificates issued in Serbia</li>
-      <li class="lang-mk">Договори за вработување и понуди за работа</li>
-      <li class="lang-en">Employment contracts and job offer letters</li>
+      <li class="lang-sr">Rešenja i presude srpskih sudova</li>
       <li class="lang-mk">Нотарски акти и полномошна</li>
       <li class="lang-en">Notarial acts and powers of attorney</li>
+      <li class="lang-sr">Notarski akti i punomoćja</li>
+      <li class="lang-mk">Дипломи од српски факултети</li>
+      <li class="lang-en">Diplomas from Serbian universities</li>
+      <li class="lang-sr">Diplome srpskih fakulteta</li>
+      <li class="lang-mk">Уверенија и преписи на оценки</li>
+      <li class="lang-en">Certificates and academic transcripts</li>
+      <li class="lang-sr">Uverenja i prepisi ocena</li>
+      <li class="lang-mk">Изводи од матична книга на родени, венчани и умрени</li>
+      <li class="lang-en">Birth, marriage, and death certificates</li>
+      <li class="lang-sr">Izvodi iz matičnih knjiga rođenih, venčanih i umrlih</li>
+      <li class="lang-mk">Договори за вработување и понуди за работа</li>
+      <li class="lang-en">Employment contracts and job offers</li>
+      <li class="lang-sr">Ugovori o radu i ponude za posao</li>
+      <li class="lang-mk">Правни договори и спогодби</li>
+      <li class="lang-en">Legal contracts and agreements</li>
+      <li class="lang-sr">Pravni ugovori i sporazumi</li>
       <li class="lang-mk">Документи за регистрација на фирми и статути на друштва</li>
       <li class="lang-en">Business registration documents and company statutes</li>
+      <li class="lang-sr">Dokumenta o registraciji privrednih društava i statuti</li>
       <li class="lang-mk">Пензиски документи и документи за социјално осигурување</li>
       <li class="lang-en">Pension and social security documents</li>
+      <li class="lang-sr">Penzijska dokumenta i dokumenta socijalnog osiguranja</li>
       <li class="lang-mk">Имотни и сопственички документи</li>
       <li class="lang-en">Property and ownership documents</li>
-      <li class="lang-mk">Медицински уверенија и картони</li>
-      <li class="lang-en">Medical certificates and records</li>
+      <li class="lang-sr">Imovinska i vlasnička dokumenta</li>
+      <li class="lang-mk">Медицинска документација и лекарски уверенија</li>
+      <li class="lang-en">Medical records and certificates</li>
+      <li class="lang-sr">Medicinska dokumentacija i lekarska uverenja</li>
+      <li class="lang-mk">Пасоши, лични карти и документи за престој</li>
+      <li class="lang-en">Passport, ID, and residency documents</li>
+      <li class="lang-sr">Pasoši, lične karte i dokumenta o boravku</li>
     </ul>
-  </div>
+    <p class="lang-mk">Ако вашиот документ не е на списокот, јавете се и ќе добиете одговор веднаш дали може да се завери.</p>
+    <p class="lang-en">If your document is not on the list, call and you will get an immediate answer on whether it can be certified.</p>
+    <p class="lang-sr">Ako vaš dokument nije na spisku, pozovite i odmah ćete dobiti odgovor da li može da se overi.</p>
+  </section>
 
-  <div class="price-box" data-nosnippet>
-    <div class="price-main">
-      <div class="price-num">300–400 MKD</div>
-      <div class="price-sub">
-        <span class="lang-mk">По страница &nbsp;·&nbsp; приближно 4,50–6,50 ЕУР</span>
-        <span class="lang-en">Per page &nbsp;·&nbsp; approx. 4.50–6.50 EUR</span>
-      </div>
-    </div>
-    <div class="price-meta">
-      <span class="lang-mk">Цената е по преведена страница и вклучува потпис и печат од овластен судски преведувач.</span>
-      <span class="lang-en">Price is per translated page and includes the signature and stamp of a licensed court translator.</span>
-    </div>
-  </div>
+  <hr class="perf" />
 
-  <div class="content-section">
-    <h2 class="lang-mk">За кого е наменета оваа услуга</h2>
-    <h2 class="lang-en">Who This Service Is For</h2>
-    <div class="audience-grid">
-      <div class="audience-card">
-        <span class="lang-mk">Адвокати<span>Поднесување српски документи до македонски судови</span></span>
-        <span class="lang-en">Lawyers<span>Submitting Serbian documents to Macedonian courts</span></span>
+  <!-- ============================ PRICE ============================ -->
+  <section class="sec" id="price">
+    <p class="eyebrow"><span class="lang-mk">Цена</span><span class="lang-en">Price</span><span class="lang-sr">Cena</span></p>
+    <h2 class="lang-mk">Цена по страница</h2>
+    <h2 class="lang-en">Price per page</h2>
+    <h2 class="lang-sr">Cena po stranici</h2>
+    <div class="price-box" data-nosnippet>
+      <div>
+        <div class="price-num">300–400 MKD</div>
+        <div class="price-sub">
+          <span class="lang-mk">По страница · приближно 4,50–6,50 ЕУР</span>
+          <span class="lang-en">Per page · approx. 4.50–6.50 EUR</span>
+          <span class="lang-sr">Po stranici · približno 4,50–6,50 EUR</span>
+        </div>
       </div>
-      <div class="audience-card">
-        <span class="lang-mk">Нотари<span>Обработка на прекугранични правни документи</span></span>
-        <span class="lang-en">Notaries<span>Processing cross-border legal documents</span></span>
-      </div>
-      <div class="audience-card">
-        <span class="lang-mk">Студенти<span>Употреба на српски дипломи во Северна Македонија</span></span>
-        <span class="lang-en">Students<span>Using Serbian diplomas in North Macedonia</span></span>
-      </div>
-      <div class="audience-card">
-        <span class="lang-mk">Лица што бараат работа<span>Признавање на српски квалификации локално</span></span>
-        <span class="lang-en">Job seekers<span>Validating Serbian credentials locally</span></span>
-      </div>
-      <div class="audience-card">
-        <span class="lang-mk">Семејства<span>Документи за наследство, имот или матична служба</span></span>
-        <span class="lang-en">Families<span>Documents for inheritance, property, or civil registry</span></span>
-      </div>
-      <div class="audience-card">
-        <span class="lang-mk">Бизниси<span>Договори и регистрации преку граница</span></span>
-        <span class="lang-en">Businesses<span>Contracts and registrations across borders</span></span>
-      </div>
-      <div class="audience-card">
-        <span class="lang-mk">Агенции за вработување<span>Обработка на кандидати со српски документи</span></span>
-        <span class="lang-en">Recruitment agencies<span>Processing candidates with Serbian documents</span></span>
-      </div>
-      <div class="audience-card">
-        <span class="lang-mk">Пензионери<span>Документи за социјално осигурување и пензија</span></span>
-        <span class="lang-en">Pensioners<span>Social security and pension documents</span></span>
-      </div>
+      <p class="price-meta">
+        <span class="lang-mk">Цената е по преведена страница и го вклучува потписот и печатот на овластениот судски преведувач. Конечната цена ја потврдувате пред да започне работата.</span>
+        <span class="lang-en">The price is per translated page and includes the signature and stamp of the licensed court translator. You confirm the final price before any work starts.</span>
+        <span class="lang-sr">Cena je po prevedenoj stranici i uključuje potpis i pečat ovlašćenog sudskog tumača. Konačnu cenu potvrđujete pre nego što posao počne.</span>
+      </p>
     </div>
-  </div>
+  </section>
 
-  <div class="content-section">
-    <h2 class="lang-mk">Што е вклучено во цената</h2>
-    <h2 class="lang-en">What Is Included in the Price</h2>
-    <ul>
-      <li class="lang-mk">Целосен превод од српски на македонски (или од македонски на српски)</li>
-      <li class="lang-en">Full translation from Serbian to Macedonian (or Macedonian to Serbian)</li>
-      <li class="lang-mk">Заверен печат и потпис на овластениот судски преведувач</li>
-      <li class="lang-en">Certified stamp and signature of the licensed court translator</li>
-      <li class="lang-mk">Изјава за заверка со која се потврдува точноста и отсуството на технички грешки</li>
-      <li class="lang-en">Certification statement confirming accuracy and freedom from technical errors</li>
-      <li class="lang-mk">Бесплатна достава до вашата адреса во Скопје, Битола или Прилеп</li>
+  <hr class="perf" />
+
+  <!-- ============================ INCLUDED ============================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Вклучено</span><span class="lang-en">Included</span><span class="lang-sr">Uključeno</span></p>
+    <h2 class="lang-mk">Што влегува во цената</h2>
+    <h2 class="lang-en">What the price covers</h2>
+    <h2 class="lang-sr">Šta cena obuhvata</h2>
+    <ul class="checklist">
+      <li class="lang-mk">Целосен превод од српски на македонски, или од македонски на српски</li>
+      <li class="lang-en">Full translation from Serbian to Macedonian, or Macedonian to Serbian</li>
+      <li class="lang-sr">Kompletan prevod sa srpskog na makedonski ili sa makedonskog na srpski</li>
+      <li class="lang-mk">Печат и потпис на овластениот судски преведувач</li>
+      <li class="lang-en">Stamp and signature of the licensed court translator</li>
+      <li class="lang-sr">Pečat i potpis ovlašćenog sudskog tumača</li>
+      <li class="lang-mk">Изјава за заверка дека преводот е точен и без технички грешки</li>
+      <li class="lang-en">Certification statement confirming the translation is accurate and free of technical errors</li>
+      <li class="lang-sr">Izjava o overi kojom se potvrđuje da je prevod tačan i bez tehničkih grešaka</li>
+      <li class="lang-mk">Бесплатна достава до ваша адреса во Скопје, Битола или Прилеп</li>
       <li class="lang-en">Free delivery to your address in Skopje, Bitola, or Prilep</li>
-      <li class="lang-mk">Бесплатна корекција на грешки доколку се утврди технички проблем по доставата</li>
-      <li class="lang-en">Free error correction if any technical issue is identified after delivery</li>
+      <li class="lang-sr">Besplatna dostava na vašu adresu u Skoplju, Bitolju ili Prilepu</li>
+      <li class="lang-mk">Бесплатна корекција доколку се утврди техничка грешка по доставата</li>
+      <li class="lang-en">Free correction if a technical error is found after delivery</li>
+      <li class="lang-sr">Besplatna ispravka ako se posle dostave utvrdi tehnička greška</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="content-section">
-    <h2 class="lang-mk">Процесот чекор по чекор</h2>
-    <h2 class="lang-en">The Process, Step by Step</h2>
-    <div class="process-steps">
+  <hr class="perf" />
+
+  <!-- ============================ PROCESS ============================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Процес</span><span class="lang-en">Process</span><span class="lang-sr">Proces</span></p>
+    <h2 class="lang-mk">Од фотографија до заверен документ</h2>
+    <h2 class="lang-en">From photo to certified document</h2>
+    <h2 class="lang-sr">Od fotografije do overenog dokumenta</h2>
+    <div class="steps">
       <div class="step">
-        <div class="step-num">1</div>
-        <div class="step-body">
-          <h4 class="lang-mk">Испратете го српскиот документ онлајн</h4>
-          <h4 class="lang-en">Send your Serbian document online</h4>
-          <p class="lang-mk">Доволна е фотографија, скен или дигитална датотека испратена преку телефон или е-пошта. Не е потребно патување или праќање на оригинални документи по пошта.</p>
-          <p class="lang-en">A photo, scan, or digital file sent by phone or email is sufficient. No need to travel or post original documents.</p>
+        <div class="step-num" aria-hidden="true">01</div>
+        <div>
+          <h4 class="lang-mk">Испратете го документот</h4>
+          <h4 class="lang-en">Send the document</h4>
+          <h4 class="lang-sr">Pošaljite dokument</h4>
+          <p class="lang-mk">Фотографија, скен или дигитална датотека преку телефон или е-пошта. Без посета на канцеларија. Оригиналот не е потребен за повеќето намени.</p>
+          <p class="lang-en">A photo, scan, or digital file by phone or email. No office visit. The original is not required for most purposes.</p>
+          <p class="lang-sr">Fotografija, skenirani dokument ili digitalni fajl putem telefona ili imejla. Bez dolaska u kancelariju. Original nije potreban za većinu namena.</p>
         </div>
       </div>
       <div class="step">
-        <div class="step-num">2</div>
-        <div class="step-body">
-          <h4 class="lang-mk">Потврдете цена и рок</h4>
-          <h4 class="lang-en">Confirm price and timeline</h4>
-          <p class="lang-mk">Понудата по страница и проценето време за изработка се потврдуваат пред да започне работата. Без изненадувања.</p>
-          <p class="lang-en">A quote per page and a turnaround estimate is confirmed before work begins. No surprises.</p>
+        <div class="step-num" aria-hidden="true">02</div>
+        <div>
+          <h4 class="lang-mk">Добијте понуда</h4>
+          <h4 class="lang-en">Get a quote</h4>
+          <h4 class="lang-sr">Dobijte ponudu</h4>
+          <p class="lang-mk">Цената по страница и рокот се потврдуваат пред да започне работата. Нема скриени трошоци.</p>
+          <p class="lang-en">Price per page and turnaround are confirmed before work begins. There are no hidden costs.</p>
+          <p class="lang-sr">Cena po stranici i rok potvrđuju se pre početka rada. Nema skrivenih troškova.</p>
         </div>
       </div>
       <div class="step">
-        <div class="step-num">3</div>
-        <div class="step-body">
-          <h4 class="lang-mk">Преводот се изработува и заверува</h4>
-          <h4 class="lang-en">Translation prepared and certified</h4>
-          <p class="lang-mk">Документот се преведува, проверува и потпишува со официјална заверка на овластениот судски преведувач. Обично завршен за неколку часа.</p>
-          <p class="lang-en">The document is translated, reviewed, and signed with the official court translator certification. Usually completed within a few hours.</p>
+        <div class="step-num" aria-hidden="true">03</div>
+        <div>
+          <h4 class="lang-mk">Преводот се изработува</h4>
+          <h4 class="lang-en">The translation is prepared</h4>
+          <h4 class="lang-sr">Prevod se izrađuje</h4>
+          <p class="lang-mk">Целиот текст се преведува и проверува. Се додава и потпишува изјавата за заверка. Повеќето документи се готови за неколку часа.</p>
+          <p class="lang-en">The full text is translated and reviewed. The certification statement is added and signed. Most documents are ready within a few hours.</p>
+          <p class="lang-sr">Ceo tekst se prevodi i proverava. Dodaje se i potpisuje izjava o overi. Većina dokumenata je gotova za nekoliko sati.</p>
         </div>
       </div>
       <div class="step">
-        <div class="step-num">4</div>
-        <div class="step-body">
-          <h4 class="lang-mk">Бесплатна достава до вашата адреса</h4>
-          <h4 class="lang-en">Free delivery to your address</h4>
-          <p class="lang-mk">Заверениот превод се доставува до вас во Скопје, Битола или Прилеп без дополнителен трошок.</p>
-          <p class="lang-en">The certified translation is delivered to you in Skopje, Bitola, or Prilep at no additional cost.</p>
+        <div class="step-num" aria-hidden="true">04</div>
+        <div>
+          <h4 class="lang-mk">Бесплатна достава</h4>
+          <h4 class="lang-en">Free delivery</h4>
+          <h4 class="lang-sr">Besplatna dostava</h4>
+          <p class="lang-mk">Готовиот заверен превод се доставува до вас во Скопје, Битола или Прилеп без дополнителен трошок.</p>
+          <p class="lang-en">The completed certified translation is delivered to you in Skopje, Bitola, or Prilep at no extra cost.</p>
+          <p class="lang-sr">Gotov overeni prevod dostavlja se na vašu adresu u Skoplju, Bitolju ili Prilepu bez dodatnih troškova.</p>
         </div>
       </div>
       <div class="step">
-        <div class="step-num">5</div>
-        <div class="step-body">
+        <div class="step-num" aria-hidden="true">05</div>
+        <div>
           <h4 class="lang-mk">Поднесете го официјално</h4>
           <h4 class="lang-en">Submit it officially</h4>
-          <p class="lang-mk">Документот е подготвен за употреба во судови, кај нотари, на факултети, во државни институции и секоја институција што бара заверен превод.</p>
-          <p class="lang-en">The document is ready for use with courts, notaries, universities, government offices, and any institution requiring certified translation.</p>
+          <h4 class="lang-sr">Predajte ga zvanično</h4>
+          <p class="lang-mk">Документот е подготвен за судови, нотари, амбасади, универзитети и секоја институција што бара заверен превод.</p>
+          <p class="lang-en">The document is ready for courts, notaries, embassies, universities, and any institution requiring a certified translation.</p>
+          <p class="lang-sr">Dokument je spreman za sudove, notare, ambasade, fakultete i svaku instituciju koja traži overeni prevod.</p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="faq-section">
+  <hr class="perf" />
+
+  <!-- ============================ CLIENTS ============================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Клиенти</span><span class="lang-en">Clients</span><span class="lang-sr">Klijenti</span></p>
+    <h2 class="lang-mk">За кого е оваа услуга</h2>
+    <h2 class="lang-en">Who this service is for</h2>
+    <h2 class="lang-sr">Kome je ova usluga namenjena</h2>
+    <div class="audience">
+      <div class="aud-card">
+        <span class="lang-mk">Адвокати<span>Докази и поднесоци до суд</span></span>
+        <span class="lang-en">Lawyers<span>Evidence and court filings</span></span>
+        <span class="lang-sr">Advokati<span>Dokazi i podnesci sudovima</span></span>
+      </div>
+      <div class="aud-card">
+        <span class="lang-mk">Нотари<span>Заверка на документи на странски јазик</span></span>
+        <span class="lang-en">Notaries<span>Certifying foreign-language documents</span></span>
+        <span class="lang-sr">Notari<span>Overa dokumenata na stranom jeziku</span></span>
+      </div>
+      <div class="aud-card">
+        <span class="lang-mk">Студенти<span>Српски дипломи во Северна Македонија</span></span>
+        <span class="lang-en">Students<span>Serbian diplomas in North Macedonia</span></span>
+        <span class="lang-sr">Studenti<span>Srpske diplome u Severnoj Makedoniji</span></span>
+      </div>
+      <div class="aud-card">
+        <span class="lang-mk">Кандидати за работа<span>Признавање на српски квалификации</span></span>
+        <span class="lang-en">Job seekers<span>Validating Serbian credentials</span></span>
+        <span class="lang-sr">Tražioci posla<span>Priznavanje srpskih kvalifikacija</span></span>
+      </div>
+      <div class="aud-card">
+        <span class="lang-mk">Семејства<span>Наследство, имот и матична служба</span></span>
+        <span class="lang-en">Families<span>Inheritance, property, and civil registry</span></span>
+        <span class="lang-sr">Porodice<span>Nasleđe, imovina i matične knjige</span></span>
+      </div>
+      <div class="aud-card">
+        <span class="lang-mk">Бизниси<span>Прекугранични договори и регистрации</span></span>
+        <span class="lang-en">Businesses<span>Cross-border contracts and registrations</span></span>
+        <span class="lang-sr">Privreda<span>Prekogranični ugovori i registracije</span></span>
+      </div>
+      <div class="aud-card">
+        <span class="lang-mk">Агенции за вработување<span>Кандидати со српски документи</span></span>
+        <span class="lang-en">Recruitment agencies<span>Candidates with Serbian documents</span></span>
+        <span class="lang-sr">Agencije za zapošljavanje<span>Kandidati sa srpskim dokumentima</span></span>
+      </div>
+      <div class="aud-card">
+        <span class="lang-mk">Пензионери<span>Пензиски документи и социјално осигурување</span></span>
+        <span class="lang-en">Pensioners<span>Pension and social security documents</span></span>
+        <span class="lang-sr">Penzioneri<span>Penzijska dokumenta i socijalno osiguranje</span></span>
+      </div>
+    </div>
+  </section>
+
+  <hr class="perf" />
+
+  <!-- ============================ REVIEWS ============================
+       Verbatim Google reviews left for this business. The Macedonian
+       column carries the reviewer's own wording (reviews written in
+       Latin transliteration are set in Cyrillic, same words); the
+       English and Serbian columns are translations.
+       ============================================================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Рецензии</span><span class="lang-en">Reviews</span><span class="lang-sr">Recenzije</span></p>
+    <h2 class="lang-mk">Што велат клиентите</h2>
+    <h2 class="lang-en">What clients say</h2>
+    <h2 class="lang-sr">Šta kažu klijenti</h2>
+    <div class="reviews">
+      <figure class="review">
+        <div class="review-stars" aria-label="5 / 5">★★★★★</div>
+        <blockquote class="lang-mk">„Беше потребен превод на решение од централен регистар и ми го донесоа за неколку часа дома. Бравос“</blockquote>
+        <blockquote class="lang-en">“I needed a translation of a decision from the Central Registry and they brought it to my home within a few hours. Bravo”</blockquote>
+        <blockquote class="lang-sr">„Trebao mi je prevod rešenja iz Centralnog registra i doneli su mi ga kući za nekoliko sati. Bravo“</blockquote>
+        <figcaption><b>Nikola Jagurinoski</b> · <span class="lang-mk">Google рецензија</span><span class="lang-en">Google review</span><span class="lang-sr">Google recenzija</span></figcaption>
+      </figure>
+      <figure class="review">
+        <div class="review-stars" aria-label="5 / 5">★★★★★</div>
+        <blockquote class="lang-mk">„Преведените документи беа без технички грешки и немаше потреба од никакви корекции. Ви благодарам!“</blockquote>
+        <blockquote class="lang-en">“The translated documents had no technical errors and no corrections were needed at all. Thank you!”</blockquote>
+        <blockquote class="lang-sr">„Prevedena dokumenta bila su bez tehničkih grešaka i nije bilo potrebe ni za kakvim ispravkama. Hvala vam!“</blockquote>
+        <figcaption><b>Angela Veziroska</b> · <span class="lang-mk">Google рецензија</span><span class="lang-en">Google review</span><span class="lang-sr">Google recenzija</span></figcaption>
+      </figure>
+      <figure class="review">
+        <div class="review-stars" aria-label="5 / 5">★★★★★</div>
+        <blockquote class="lang-mk">„Благодарам на услугата и итноста“</blockquote>
+        <blockquote class="lang-en">“Thank you for the service and the urgency”</blockquote>
+        <blockquote class="lang-sr">„Hvala na usluzi i hitnosti“</blockquote>
+        <figcaption><b>Dejan Stojkov</b> · <span class="lang-mk">Google рецензија</span><span class="lang-en">Google review</span><span class="lang-sr">Google recenzija</span></figcaption>
+      </figure>
+    </div>
+
+    <a class="rating-bar" href="https://maps.google.com/?cid=11514070457309463122" target="_blank" rel="noopener noreferrer">
+      <span class="rating-score">5,0</span>
+      <span class="rating-stars" aria-hidden="true">★★★★★</span>
+      <span class="rating-count"><span class="lang-mk">50+ рецензии на Google</span><span class="lang-en">50+ reviews on Google</span><span class="lang-sr">50+ recenzija na Google-u</span></span>
+      <span class="rating-go" aria-hidden="true">↗</span>
+    </a>
+  </section>
+
+  <hr class="perf" />
+
+  <!-- ============================ FAQ ============================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Прашања</span><span class="lang-en">Questions</span><span class="lang-sr">Pitanja</span></p>
     <h2 class="lang-mk">Често поставувани прашања</h2>
-    <h2 class="lang-en">Frequently Asked Questions</h2>
+    <h2 class="lang-en">Frequently asked questions</h2>
+    <h2 class="lang-sr">Često postavljana pitanja</h2>
     <div class="faq-item">
-      <button class="faq-q" type="button"><span class="lang-mk">Зошто ми треба заверен превод за српски документ во Северна Македонија?</span><span class="lang-en">Why do I need a certified translation for a Serbian document in North Macedonia?</span></button>
-      <div class="faq-a"><span class="lang-mk">Иако српскиот и македонскиот се сродни јазици, судовите, нотарите и државните институции во Северна Македонија бараат официјален заверен превод за секој документ на странски јазик. Заверениот превод носи правна гаранција за точност поткрепена од овластен судски преведувач.</span><span class="lang-en">Even though Serbian and Macedonian are related languages, courts, notaries, and government offices in North Macedonia require an officially certified translation for any foreign-language document. A certified translation carries a legal guarantee of accuracy backed by a licensed court translator.</span></div>
+      <button class="faq-q" type="button"><span class="lang-mk">Зошто ми треба заверен превод за српски документ во Северна Македонија?</span><span class="lang-en">Why do I need a certified translation for a Serbian document in North Macedonia?</span><span class="lang-sr">Zašto mi je potreban overeni prevod za srpski dokument u Severnoj Makedoniji?</span></button>
+      <div class="faq-a"><span class="lang-mk">Иако српскиот и македонскиот се сродни јазици, судовите, нотарите, факултетите и државните институции бараат официјален заверен превод за секој документ на странски јазик. Заверениот превод носи правна гаранција за точност поткрепена од овластен судски преведувач.</span><span class="lang-en">Even though Serbian and Macedonian are related languages, courts, notaries, universities, and government offices require an officially certified translation for any foreign-language document. A certified translation carries a legal guarantee of accuracy backed by a licensed court translator.</span><span class="lang-sr">Iako su srpski i makedonski srodni jezici, sudovi, notari, fakulteti i državne institucije traže zvanično overen prevod za svaki dokument na stranom jeziku. Overeni prevod nosi pravnu garanciju tačnosti koju daje ovlašćeni sudski tumač.</span></div>
     </div>
     <div class="faq-item">
-      <button class="faq-q" type="button"><span class="lang-mk">Колку чини превод од српски на македонски?</span><span class="lang-en">How much does Serbian to Macedonian translation cost?</span></button>
-      <div class="faq-a" data-nosnippet><span class="lang-mk">Од 300 до 400 денари по страница, приближно 4,50 до 6,50 ЕУР. Бесплатната достава е вклучена. Понудата ја добивате пред да започне работата.</span><span class="lang-en">Between 300 and 400 Macedonian denari per page, approximately 4.50 to 6.50 EUR. Free delivery is included. You receive a quote before work begins.</span></div>
+      <button class="faq-q" type="button"><span class="lang-mk">Колку чини превод од српски на македонски?</span><span class="lang-en">How much does Serbian to Macedonian translation cost?</span><span class="lang-sr">Koliko košta prevod sa srpskog na makedonski?</span></button>
+      <div class="faq-a" data-nosnippet><span class="lang-mk">Помеѓу 300 и 400 денари по страница, приближно 4,50 до 6,50 ЕУР. Конечната цена зависи од должината и видот на документот. Бесплатната достава е вклучена.</span><span class="lang-en">Between 300 and 400 Macedonian denari per page, approximately 4.50 to 6.50 EUR. The final price depends on the length and type of document. Free delivery is included.</span><span class="lang-sr">Između 300 i 400 makedonskih denara po stranici, približno 4,50 do 6,50 EUR. Konačna cena zavisi od dužine i vrste dokumenta. Besplatna dostava je uključena.</span></div>
     </div>
     <div class="faq-item">
-      <button class="faq-q" type="button"><span class="lang-mk">Колку трае преводот од српски на македонски?</span><span class="lang-en">How long does Serbian to Macedonian translation take?</span></button>
-      <div class="faq-a"><span class="lang-mk">Повеќето преводи се изработуваат во рок од неколку часа од приемот на документот. Максималното време за изработка е еден ден.</span><span class="lang-en">Most translations are completed within a few hours of receiving the document. The maximum turnaround is one day.</span></div>
+      <button class="faq-q" type="button"><span class="lang-mk">Колку трае преводот?</span><span class="lang-en">How long does the translation take?</span><span class="lang-sr">Koliko traje prevod?</span></button>
+      <div class="faq-a"><span class="lang-mk">Поголемиот дел од преводите се изработуваат во рок од неколку часа од приемот на документот. Максималното време на изработка е еден ден, дури и за подолги документи.</span><span class="lang-en">Most translations are completed within a few hours of receiving the document. The maximum turnaround is one day, even for longer documents.</span><span class="lang-sr">Većina prevoda je gotova za nekoliko sati od prijema dokumenta. Maksimalan rok izrade je jedan dan, čak i za duže dokumente.</span></div>
     </div>
     <div class="faq-item">
-      <button class="faq-q" type="button"><span class="lang-mk">Дали морам да го испратам оригиналниот српски документ?</span><span class="lang-en">Do I need to send the original Serbian document?</span></button>
-      <div class="faq-a"><span class="lang-mk">Не. Доволен е јасен скен или фотографија. Оригиналните документи не се потребни во повеќето случаи.</span><span class="lang-en">No. A clear scan or photo is sufficient. Original documents are not required in most cases.</span></div>
+      <button class="faq-q" type="button"><span class="lang-mk">Дали е прифатлив скен или фотографија од мојот документ?</span><span class="lang-en">Is a scan or photo of my document acceptable?</span><span class="lang-sr">Da li je dovoljna fotografija ili skenirani dokument?</span></button>
+      <div class="faq-a"><span class="lang-mk">Да. Јасна фотографија или скен е доволно за да започне и да се изработи преводот. Во повеќето случаи не е потребно да го испратите оригиналниот документ.</span><span class="lang-en">Yes. A clear photo or scan is sufficient to begin and complete the translation. You do not need to send the original document in most cases.</span><span class="lang-sr">Da. Jasna fotografija ili skenirani dokument dovoljni su da se prevod započne i završi. U većini slučajeva original nije potrebno slati.</span></div>
     </div>
     <div class="faq-item">
-      <button class="faq-q" type="button"><span class="lang-mk">Кои српски документи најчесто се преведуваат на македонски?</span><span class="lang-en">What Serbian documents are most commonly translated to Macedonian?</span></button>
-      <div class="faq-a"><span class="lang-mk">Судски решенија, дипломи, изводи од матична книга на родени и венчани, документи за вработување, деловни договори и нотарски акти се најчестите барања.</span><span class="lang-en">Court decisions, diplomas, birth and marriage certificates, employment documents, business contracts, and notarial acts are the most frequent requests.</span></div>
+      <button class="faq-q" type="button"><span class="lang-mk">Дали преводите се прифаќаат од институциите?</span><span class="lang-en">Are translations accepted by institutions?</span><span class="lang-sr">Da li institucije prihvataju ove prevode?</span></button>
+      <div class="faq-a"><span class="lang-mk">Да. Заверката ја издава овластен судски преведувач лиценциран од Министерството за правда на Северна Македонија и се прифаќа од сите судови, нотари, факултети и државни институции во земјата. За употреба во Србија, проверете со институцијата примач дали прифаќа северномакедонска заверка.</span><span class="lang-en">Yes. The certification is issued by a court translator licensed by the Ministry of Justice of North Macedonia and is accepted by all courts, notaries, universities, and government offices in the country. For use in Serbia, check with the receiving institution whether a North Macedonian certification is accepted.</span><span class="lang-sr">Da. Overu izdaje sudski tumač licenciran od Ministarstva pravde Severne Makedonije i prihvataju je svi sudovi, notari, fakulteti i državne institucije u zemlji. Za upotrebu u Srbiji, proverite sa institucijom primaocem da li prihvata severnomakedonsku overu.</span></div>
     </div>
     <div class="faq-item">
-      <button class="faq-q" type="button"><span class="lang-mk">Дали заверениот превод важи за македонските институции?</span><span class="lang-en">Is the certified translation valid for North Macedonian institutions?</span></button>
-      <div class="faq-a"><span class="lang-mk">Да. Заверката ја издава овластен судски преведувач лиценциран од Министерството за правда на Северна Македонија и се прифаќа од сите судови, нотари, факултети и државни институции во земјата.</span><span class="lang-en">Yes. The certification is issued by a court translator licensed by the Ministry of Justice of North Macedonia, and is accepted by all courts, notaries, universities, and government offices in the country.</span></div>
+      <button class="faq-q" type="button"><span class="lang-mk">Што се случува ако има грешка во мојот превод?</span><span class="lang-en">What happens if there is an error in my translation?</span><span class="lang-sr">Šta ako u prevodu ima greške?</span></button>
+      <div class="faq-a"><span class="lang-mk">Сите технички грешки се коригираат бесплатно. Секој превод вклучува потпишана изјава за заверка, а преведувачот стои зад точноста на таа изјава.</span><span class="lang-en">Any technical errors are corrected free of charge. Every translation includes a signed certification statement, and the translator stands behind the accuracy of that statement.</span><span class="lang-sr">Sve tehničke greške ispravljaju se besplatno. Svaki prevod sadrži potpisanu izjavu o overi, a tumač garantuje za njenu tačnost.</span></div>
     </div>
-  </div>
+    <div class="faq-item">
+      <button class="faq-q" type="button"><span class="lang-mk">Дали со Вашиот превод на моите документи можам да аплицирам за студирање во странство?</span><span class="lang-en">Can I apply to study abroad with your translation of my documents?</span><span class="lang-sr">Da li sa Vašim prevodom mojih dokumenata mogu da konkurišem za studiranje u inostranstvu?</span></button>
+      <div class="faq-a"><span class="lang-mk">Да. Вашиот пасош, диплома, извод од матична книга на родените, уверение за државјанство, CV и препораки ќе бидат професионално и правилно преведени од наша страна, без технички грешки, за Вашата апликација да биде успешна!</span><span class="lang-en">Yes. Your passport, diploma, birth certificate, certificate of citizenship, CV, and references will be translated professionally and correctly by us, free of technical errors, so that your application succeeds!</span><span class="lang-sr">Da. Vaš pasoš, diploma, izvod iz matične knjige rođenih, uverenje o državljanstvu, CV i preporuke biće profesionalno i pravilno prevedeni sa naše strane, bez tehničkih grešaka, kako bi Vaša prijava bila uspešna!</span></div>
+    </div>
+  </section>
 
-  <div class="contact-box">
-    <h2 class="lang-mk">Контакт</h2>
-    <h2 class="lang-en">Contact</h2>
-    <div class="contact-grid">
-      <div class="contact-item">
-        <span class="contact-label"><span class="lang-mk">Телефон</span><span class="lang-en">Phone</span></span>
-        <span class="contact-value"><a href="tel:+38975252097">+389 75 252 097</a></span>
+  <hr class="perf" />
+
+  <!-- ============================ CONTACT / NAP ============================ -->
+  <section class="sec">
+    <p class="eyebrow"><span class="lang-mk">Контакт</span><span class="lang-en">Contact</span><span class="lang-sr">Kontakt</span></p>
+    <div class="contact-box">
+      <h2 class="lang-mk">Испратете го документот денес</h2>
+      <h2 class="lang-en">Send your document today</h2>
+      <h2 class="lang-sr">Pošaljite dokument danas</h2>
+      <p class="booking-line lang-mk">Испратете фотографија од документот на телефон — без доаѓање во канцеларија, без оригинал, а цената ја потврдувате пред да започне работата.</p>
+      <p class="booking-line lang-en">Send a phone photo of the document — no office visit, no original needed, and you confirm the price before any work starts.</p>
+      <p class="booking-line lang-sr">Pošaljite fotografiju dokumenta telefonom — bez dolaska u kancelariju, bez originala, a cenu potvrđujete pre nego što posao počne.</p>
+      <div class="contact-cta">
+        <a href="tel:+38975252097" class="btn btn-primary">
+          <span class="lang-mk">Јавете се: +389 75 252 097</span>
+          <span class="lang-en">Call: +389 75 252 097</span>
+          <span class="lang-sr">Pozovite: +389 75 252 097</span>
+        </a>
+        <a href="/" class="btn btn-ghost">
+          <span class="lang-mk">Сите услуги</span>
+          <span class="lang-en">All services</span>
+          <span class="lang-sr">Sve usluge</span>
+        </a>
       </div>
-      <div class="contact-item">
-        <span class="contact-label"><span class="lang-mk">Веб-страница</span><span class="lang-en">Website</span></span>
-        <span class="contact-value"><a href="https://sudskiprevodimk.com">sudskiprevodimk.com</a></span>
-      </div>
-      <div class="contact-item">
-        <span class="contact-label"><span class="lang-mk">Работно време</span><span class="lang-en">Hours</span></span>
-        <span class="contact-value"><span class="lang-mk">Секој ден, 07:30–21:30</span><span class="lang-en">Every day, 07:30–21:30</span></span>
-      </div>
-      <div class="contact-item">
-        <span class="contact-label"><span class="lang-mk">Праќање</span><span class="lang-en">Submission</span></span>
-        <span class="contact-value"><span class="lang-mk">Онлајн — без посета на канцеларија</span><span class="lang-en">Online — no office visit required</span></span>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label"><span class="lang-mk">Е-маил</span><span class="lang-en">Email</span><span class="lang-sr">Imejl</span></span>
+          <span class="contact-value"><a href="mailto:sudskiprevodimk@yahoo.com">sudskiprevodimk@yahoo.com</a></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label"><span class="lang-mk">Адреса</span><span class="lang-en">Address</span><span class="lang-sr">Adresa</span></span>
+          <span class="contact-value"><span class="lang-mk">ул. Владимир Комаров бр. 23, Аеродром, Скопје</span><span class="lang-en">Vladimir Komarov St. 23, Aerodrom, Skopje</span><span class="lang-sr">Ul. Vladimira Komarova 23, Aerodrom, Skoplje</span></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label"><span class="lang-mk">Работно време</span><span class="lang-en">Hours</span><span class="lang-sr">Radno vreme</span></span>
+          <span class="contact-value"><span class="lang-mk">Секој ден, 07:30–21:30</span><span class="lang-en">Every day, 07:30–21:30</span><span class="lang-sr">Svakog dana, 07:30–21:30</span></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label"><span class="lang-mk">Праќање</span><span class="lang-en">Submission</span><span class="lang-sr">Slanje</span></span>
+          <span class="contact-value"><span class="lang-mk">Онлајн — без посета на канцеларија</span><span class="lang-en">Online — no office visit</span><span class="lang-sr">Onlajn — bez dolaska u kancelariju</span></span>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="internal-links">
+  <!-- ============================ LINKS ============================ -->
+  <section class="sec links">
+    <p class="eyebrow"><span class="lang-mk">Навигација</span><span class="lang-en">Navigation</span><span class="lang-sr">Navigacija</span></p>
     <h3 class="lang-mk">Повеќе од Судски Преводи МК</h3>
     <h3 class="lang-en">More from Sudski Prevodi MK</h3>
+    <h3 class="lang-sr">Još iz Sudski Prevodi MK</h3>
     <div class="link-grid">
       <a class="link-card" href="/">
         <span class="lang-mk">← Почетна<span>Преглед на сите услуги</span></span>
         <span class="lang-en">← Homepage<span>All services overview</span></span>
+        <span class="lang-sr">← Početna<span>Pregled svih usluga</span></span>
       </a>
       <a class="link-card" href="/services/english-macedonian-translation/">
-        <span class="lang-mk">Англиски ↔ Македонски<span>Друга понудена услуга</span></span>
-        <span class="lang-en">English ↔ Macedonian<span>Other service offered</span></span>
-      </a>
-      <a class="link-card" href="/locations/skopje/">
-        <span class="lang-mk">Скопје<span>Локациска страница</span></span>
-        <span class="lang-en">Skopje<span>Location page</span></span>
-      </a>
-      <a class="link-card" href="/locations/bitola/">
-        <span class="lang-mk">Битола<span>Локациска страница</span></span>
-        <span class="lang-en">Bitola<span>Location page</span></span>
-      </a>
-      <a class="link-card" href="/locations/prilep/">
-        <span class="lang-mk">Прилеп<span>Локациска страница</span></span>
-        <span class="lang-en">Prilep<span>Location page</span></span>
+        <span class="lang-mk">Англиски ↔ Македонски<span>Детали и цени за услугата</span></span>
+        <span class="lang-en">English ↔ Macedonian<span>Service details &amp; pricing</span></span>
+        <span class="lang-sr">Engleski ↔ Makedonski<span>Detalji i cene usluge</span></span>
       </a>
       <a class="link-card" href="/services/turkish-macedonian-translation/">
-        <span class="lang-mk">Турски ↔ Македонски<span>Детали и цени за услугата</span></span>
-        <span class="lang-en">Turkish ↔ Macedonian<span>Service details &amp; pricing</span></span>
+        <span class="lang-mk">Турски ↔ Македонски<span>Друга понудена услуга</span></span>
+        <span class="lang-en">Turkish ↔ Macedonian<span>Other service offered</span></span>
+        <span class="lang-sr">Turski ↔ Makedonski<span>Druga ponuđena usluga</span></span>
+      </a>
+      <a class="link-card" href="/locations/skopje/">
+        <span class="lang-mk">Скопје<span>Страница за локација</span></span>
+        <span class="lang-en">Skopje<span>Location page</span></span>
+        <span class="lang-sr">Skoplje<span>Stranica lokacije</span></span>
+      </a>
+      <a class="link-card" href="/locations/bitola/">
+        <span class="lang-mk">Битола<span>Страница за локација</span></span>
+        <span class="lang-en">Bitola<span>Location page</span></span>
+        <span class="lang-sr">Bitolj<span>Stranica lokacije</span></span>
+      </a>
+      <a class="link-card" href="/locations/prilep/">
+        <span class="lang-mk">Прилеп<span>Страница за локација</span></span>
+        <span class="lang-en">Prilep<span>Location page</span></span>
+        <span class="lang-sr">Prilep<span>Stranica lokacije</span></span>
       </a>
     </div>
-  </div>
+  </section>
 
 </main>
 
-<footer>
-  <p>© 2026 Судски Преводи МК &nbsp;·&nbsp; <a href="tel:+38975252097">+389 75 252 097</a> &nbsp;·&nbsp; <a href="/">sudskiprevodimk.com</a></p>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-nap">
+      <span class="lang-mk"><strong>Судски Преводи МК</strong> · ул. Владимир Комаров бр. 23, Аеродром, Скопје · <a href="tel:+38975252097">+389 75 252 097</a> · Секој ден 07:30–21:30</span>
+      <span class="lang-en"><strong>Sudski Prevodi MK</strong> · Vladimir Komarov St. 23, Aerodrom, Skopje · <a href="tel:+38975252097">+389 75 252 097</a> · Every day 07:30–21:30</span>
+      <span class="lang-sr"><strong>Sudski Prevodi MK</strong> · Ul. Vladimira Komarova 23, Aerodrom, Skoplje · <a href="tel:+38975252097">+389 75 252 097</a> · Svakog dana 07:30–21:30</span>
+    </p>
+    <p class="footer-mark">
+      <span class="lang-mk">© 2026 · Овластен судски преведувач</span>
+      <span class="lang-en">© 2026 · Licensed court translator</span>
+      <span class="lang-sr">© 2026 · Ovlašćeni sudski tumač</span>
+    </p>
+  </div>
 </footer>
 
 <script src="/lang.js" defer></script>
