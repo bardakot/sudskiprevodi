@@ -75,13 +75,9 @@ body {
 }
 .skip-link:focus { top: 12px; }
 
-/* Language toggle — driven by /lang.js. Three columns on this page. */
-[data-lang="mk"] .lang-en,
+/* Language toggle — driven by /lang.js. MK and TR only on this page. */
 [data-lang="mk"] .lang-tr { display: none !important; }
-[data-lang="en"] .lang-mk,
-[data-lang="en"] .lang-tr { display: none !important; }
-[data-lang="tr"] .lang-mk,
-[data-lang="tr"] .lang-en { display: none !important; }
+[data-lang="tr"] .lang-mk { display: none !important; }
 
 /* ============================================================
    HEADER
@@ -153,7 +149,6 @@ body {
 .lang-btn img { width: 100%; height: 100%; object-fit: cover; border-radius: 2px; display: block; }
 .lang-btn:hover { opacity: 0.85; }
 [data-lang="mk"] .lang-btn[data-set-lang="mk"],
-[data-lang="en"] .lang-btn[data-set-lang="en"],
 [data-lang="tr"] .lang-btn[data-set-lang="tr"] {
   opacity: 1;
   background: var(--plate-2);
