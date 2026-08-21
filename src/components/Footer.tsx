@@ -1,20 +1,22 @@
 import { useTranslation } from 'react-i18next';
-import logo from '@/assets/logo-removebg-preview.png';
+import logo from '@/assets/logo.webp';
 
 const Footer = () => {
   const {
-    t
+    t,
+    i18n
   } = useTranslation();
   const currentYear = new Date().getFullYear();
+  const localizedPrefix = i18n.language === 'en' ? '/en' : i18n.language === 'sr' ? '/sr' : '';
 
   // Real crawlable links to the standalone static pages (outside the SPA),
   // so they are no longer orphaned. Plain <a href> = full navigation, which is
   // what Googlebot follows.
   const services = [{
-    href: '/services/english-macedonian-translation/',
+    href: `${i18n.language === 'en' ? localizedPrefix : ''}/services/english-macedonian-translation/`,
     label: t('footer.services.english')
   }, {
-    href: '/services/serbian-macedonian-translation/',
+    href: `${i18n.language === 'sr' ? localizedPrefix : ''}/services/serbian-macedonian-translation/`,
     label: t('footer.services.serbian')
   }, {
     href: '/services/turkish-macedonian-translation/',
@@ -25,7 +27,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col items-center gap-6 sm:gap-8">
           <div className="flex items-center">
-              <img src={logo} alt="Logo" className="h-36 w-auto" />
+              <img src={logo} alt="Sudski Prevodi MK" width={499} height={500} className="h-36 w-auto" />
           </div>
 
           <div className="text-center">

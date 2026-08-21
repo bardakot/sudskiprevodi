@@ -11,6 +11,7 @@ const resources = {
         contact: 'Contact',
         faq: 'FAQ',
         languages: 'Languages',
+        locations: 'Locations',
       },
       langPairs: {
         enmk: 'English ↔ Macedonian',
@@ -61,7 +62,7 @@ const resources = {
           },
           step3: {
             title: 'Translation',
-            desc: 'We complete the translation of your documents in the shortest possible time, in accordance with your needs. Typically 1 day for smaller volume of documents, and 3 days for translation of more extensive material',
+            desc: 'We complete your translation in the shortest possible time. Most documents are ready within a few hours, and the confirmed turnaround is no longer than one day.',
           },
           step4: {
             title: 'Notarization / Apostille',
@@ -70,6 +71,25 @@ const resources = {
           step5: {
             title: 'Free Delivery',
             desc: 'We deliver the translated documents to your address free of charge',
+          },
+        },
+      },
+      locations: {
+        title: 'Locations and Delivery',
+        subtitle: 'Visit our office in Skopje or use online submission with free document delivery in Prilep and Bitola',
+        view: 'View location details',
+        cities: {
+          skopje: {
+            title: 'Court Translations in Skopje',
+            description: 'Our physical office is in Aerodrom, Skopje. Submit documents online or arrange an office visit and delivery across the city.',
+          },
+          prilep: {
+            title: 'Court Translations for Prilep',
+            description: 'Send documents online and receive the completed certified translation at your address in Prilep. We do not have an office in Prilep.',
+          },
+          bitola: {
+            title: 'Court Translations for Bitola',
+            description: 'Send documents online and receive the completed certified translation at your address in Bitola. We do not have an office in Bitola.',
           },
         },
       },
@@ -155,6 +175,7 @@ const resources = {
         contact: 'Контакт',
         faq: 'ЧПП',
         languages: 'Јазици',
+        locations: 'Локации',
       },
       langPairs: {
         enmk: 'Англиски ↔ Македонски',
@@ -205,7 +226,7 @@ const resources = {
           },
           step3: {
             title: 'Превод',
-            desc: 'Го изготвуваме преводот на вашите документи во најкраток можен рок, во согласност со вашите потреби. Најчесто 1 ден за помал обем на документи, а 3 дена за превод на пообемен материјал',
+            desc: 'Го изготвуваме преводот на вашите документи во најкраток можен рок. Повеќето документи се готови за неколку часа, а потврдениот рок не е подолг од еден ден.',
           },
           step4: {
             title: 'Нотаризација / Апостил',
@@ -214,6 +235,25 @@ const resources = {
           step5: {
             title: 'Бесплатна Достава',
             desc: 'Преведените документи бесплатно ги доставуваме на вашата адреса',
+          },
+        },
+      },
+      locations: {
+        title: 'Локации и достава',
+        subtitle: 'Посетете ја канцеларијата во Скопје или испратете ги документите онлајн со бесплатна достава во Прилеп и Битола',
+        view: 'Повеќе за локацијата',
+        cities: {
+          skopje: {
+            title: 'Судски преводи во Скопје',
+            description: 'Нашата физичка канцеларија се наоѓа во Аеродром, Скопје. Испратете документи онлајн или договорете посета и достава низ градот.',
+          },
+          prilep: {
+            title: 'Судски преводи за Прилеп',
+            description: 'Испратете ги документите онлајн и добијте го готовиот заверен превод на вашата адреса во Прилеп. Немаме канцеларија во Прилеп.',
+          },
+          bitola: {
+            title: 'Судски преводи за Битола',
+            description: 'Испратете ги документите онлајн и добијте го готовиот заверен превод на вашата адреса во Битола. Немаме канцеларија во Битола.',
           },
         },
       },
@@ -299,6 +339,7 @@ const resources = {
         contact: 'Контакт',
         faq: 'ЧПП',
         languages: 'Језици',
+        locations: 'Локације',
       },
       langPairs: {
         enmk: 'Енглески ↔ Македонски',
@@ -349,7 +390,7 @@ const resources = {
           },
           step3: {
             title: 'Превођење',
-            desc: 'Израђујемо превод ваших докумената у најкраћем могућем року, у складу са вашим потребама. Најчешће 1 дан за мању количину докумената, а 3 дана за превод обимнијег материјала',
+            desc: 'Израђујемо превод ваших докумената у најкраћем могућем року. Већина докумената је готова за неколико сати, а потврђени рок није дужи од једног дана.',
           },
           step4: {
             title: 'Нотаризација / Апостил',
@@ -358,6 +399,25 @@ const resources = {
           step5: {
             title: 'Бесплатна Достава',
             desc: 'Преведене документе бесплатно достављамо на вашу адресу',
+          },
+        },
+      },
+      locations: {
+        title: 'Локације и достава',
+        subtitle: 'Посетите канцеларију у Скопљу или пошаљите документе онлајн уз бесплатну доставу у Прилепу и Битољу',
+        view: 'Детаљи о локацији',
+        cities: {
+          skopje: {
+            title: 'Судски преводи у Скопљу',
+            description: 'Наша физичка канцеларија се налази у Аеродрому, Скопље. Пошаљите документе онлајн или договорите посету и доставу у граду.',
+          },
+          prilep: {
+            title: 'Судски преводи за Прилеп',
+            description: 'Пошаљите документе онлајн и примите готов оверени превод на својој адреси у Прилепу. Немамо канцеларију у Прилепу.',
+          },
+          bitola: {
+            title: 'Судски преводи за Битољ',
+            description: 'Пошаљите документе онлајн и примите готов оверени превод на својој адреси у Битољу. Немамо канцеларију у Битољу.',
           },
         },
       },
