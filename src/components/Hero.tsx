@@ -5,12 +5,11 @@ import { ArrowRight, MoveRight, MoveLeft } from 'lucide-react';
 import mkFlag from '@/assets/flags/mk.png';
 import gbFlag from '@/assets/flags/gb.png';
 import rsFlag from '@/assets/flags/rs.png';
-import certificateOutline from '@/assets/decorations/certificate-outline.png';
-import diplomaOutline from '@/assets/decorations/diploma-outline-removebg-preview.png';
-import documentsOutline from '@/assets/decorations/documents-outline-removebg-preview.png';
-import bookOutline from '@/assets/decorations/book-outline-removebg-preview.png';
-import writingBookOutline from '@/assets/decorations/writing-book-outline-removebg-preview.png';
-import closedDictionaryOutline from '@/assets/decorations/closed-dictionary-outline-removebg-preview.png';
+import diplomaOutline from '@/assets/decorations/diploma-outline.webp';
+import documentsOutline from '@/assets/decorations/documents-outline.webp';
+import bookOutline from '@/assets/decorations/book-outline.webp';
+import writingBookOutline from '@/assets/decorations/writing-book-outline.webp';
+import closedDictionaryOutline from '@/assets/decorations/closed-dictionary-outline.webp';
 const Hero = () => {
   const {
     t,
@@ -55,6 +54,8 @@ const Hero = () => {
         <motion.img 
           src={writingBookOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute top-[-4%] right-[2%] opacity-[0.20] rotate-12 pointer-events-none"
           style={{ width: '15rem' }}
           animate={{
@@ -70,6 +71,8 @@ const Hero = () => {
         <motion.img 
           src={diplomaOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute top-[15%] left-[2%] opacity-[0.20] -rotate-6 pointer-events-none"
           style={{ width: '13.5rem' }}
           animate={{
@@ -86,6 +89,8 @@ const Hero = () => {
         <motion.img 
           src={bookOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute bottom-[35%] left-[1%] opacity-[0.10] -rotate-12 pointer-events-none"
           style={{ width: '13.5rem' }}
           animate={{
@@ -102,6 +107,8 @@ const Hero = () => {
         <motion.img 
           src={closedDictionaryOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute bottom-[10%] right-[1%] opacity-[0.20] rotate-8 pointer-events-none"
           style={{ width: '15rem' }}
           animate={{
@@ -118,6 +125,8 @@ const Hero = () => {
         <motion.img 
           src={documentsOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute top-[65%] right-[50%] opacity-[0.20] rotate-6 pointer-events-none"
           style={{ width: '12rem' }}
           animate={{
@@ -138,6 +147,8 @@ const Hero = () => {
         <motion.img 
           src={writingBookOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute top-[-2%] right-[12%] w-64 md:w-80 lg:w-96 opacity-[0.30] rotate-12 pointer-events-none"
           animate={{
             y: [0, -15, 0],
@@ -152,6 +163,8 @@ const Hero = () => {
         <motion.img 
           src={diplomaOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute top-[2%] left-[18%] w-56 md:w-72 lg:w-80 opacity-[0.30] -rotate-6 pointer-events-none"
           animate={{
             y: [0, 20, 0],
@@ -167,6 +180,8 @@ const Hero = () => {
         <motion.img 
           src={closedDictionaryOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute bottom-[18%] right-[8%] w-64 md:w-80 lg:w-96 opacity-[0.30] rotate-[8deg] pointer-events-none"
           animate={{
             y: [0, -12, 0],
@@ -182,6 +197,8 @@ const Hero = () => {
         <motion.img 
           src={bookOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute bottom-[42%] left-[5%] w-48 md:w-64 lg:w-80 opacity-[0.30] -rotate-12 pointer-events-none"
           animate={{
             y: [0, 18, 0],
@@ -197,6 +214,8 @@ const Hero = () => {
         <motion.img 
           src={documentsOutline} 
           alt="" 
+          width={500}
+          height={500}
           className="absolute top-[62%] left-[12%] w-40 md:w-52 lg:w-64 opacity-[0.30] rotate-6 pointer-events-none"
           animate={{
             y: [0, -10, 0],
