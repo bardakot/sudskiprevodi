@@ -33,19 +33,6 @@ export default defineConfig(({ mode }) => ({
     },
     mode === "development" && componentTagger(),
   ].filter(Boolean),
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks(id) {
-          if (!id.includes("node_modules")) return;
-          if (id.includes("framer-motion")) return "motion-vendor";
-          if (id.includes("react") || id.includes("scheduler")) return "react-vendor";
-          if (id.includes("@radix-ui")) return "radix-vendor";
-          return "vendor";
-        },
-      },
-    },
-  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
