@@ -11,7 +11,7 @@ import {
 import mkFlag from "@/assets/flags/mk.png";
 import gbFlag from "@/assets/flags/gb.png";
 import rsFlag from "@/assets/flags/rs.png";
-import logo from "@/assets/logo-removebg-preview.png";
+import logo from "@/assets/logo.webp";
 import { motion, AnimatePresence } from "framer-motion";
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -71,20 +71,24 @@ const Header = () => {
   const languages = [
     {
       code: "mk",
+      href: "/",
       flag: mkFlag,
       label: "MK",
     },
     {
       code: "en",
+      href: "/en/",
       flag: gbFlag,
       label: "EN",
     },
     {
       code: "sr",
+      href: "/sr/",
       flag: rsFlag,
       label: "SR",
     },
   ];
+  const localizedPrefix = i18n.language === "en" ? "/en" : i18n.language === "sr" ? "/sr" : "";
   const navItems = [
     {
       key: "home",
@@ -99,6 +103,10 @@ const Header = () => {
       href: "#process",
     },
     {
+      key: "locations",
+      href: "#locations",
+    },
+    {
       key: "contact",
       href: "#contact",
     },
@@ -108,8 +116,8 @@ const Header = () => {
     },
   ];
   const languagePages = [
-    { key: "enmk", href: "/services/english-macedonian-translation/" },
-    { key: "srmk", href: "/services/serbian-macedonian-translation/" },
+    { key: "enmk", href: `${i18n.language === "en" ? localizedPrefix : ""}/services/english-macedonian-translation/` },
+    { key: "srmk", href: `${i18n.language === "sr" ? localizedPrefix : ""}/services/serbian-macedonian-translation/` },
     { key: "trmk", href: "/services/turkish-macedonian-translation/" },
   ];
   const scrollToSection = (href: string) => {
@@ -139,7 +147,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-4 sm:gap-8">
         {/* Logo */}
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="h-12 sm:h-16 w-auto" />
+          <img src={logo} alt="Sudski Prevodi MK" width={499} height={500} className="h-12 sm:h-16 w-auto" />
         </div>
 
         {/* Desktop Navigation */}
@@ -181,11 +189,13 @@ const Header = () => {
               key={lang.code}
               variant={i18n.language === lang.code ? "default" : "ghost"}
               size="sm"
-              onClick={() => i18n.changeLanguage(lang.code)}
+              asChild
               className="w-11 h-11 sm:w-10 sm:h-10 p-1 min-w-[44px]"
               title={lang.label}
             >
-              <img src={lang.flag} alt={lang.label} className="w-full h-full object-cover rounded-sm" />
+              <a href={lang.href} aria-label={lang.label}>
+                <img src={lang.flag} alt="" className="w-full h-full object-cover rounded-sm" />
+              </a>
             </Button>
           ))}
 
