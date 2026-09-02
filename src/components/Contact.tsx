@@ -124,13 +124,13 @@ const Contact = () => {
                 </div>
               </a>
 
-              <a href="tel:+38975252097" className="flex items-start gap-3 sm:gap-4 p-4 sm:p-5 bg-card border border-border rounded-lg hover:bg-secondary/50 transition-colors min-h-[72px]">
+              <a href="tel:+38973766939" className="flex items-start gap-3 sm:gap-4 p-4 sm:p-5 bg-card border border-border rounded-lg hover:bg-secondary/50 transition-colors min-h-[72px]">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Phone className="text-primary" size={24} />
                 </div>
                 <div>
                   <p className="text-xs sm:text-sm text-muted-foreground mb-1">Phone</p>
-                  <p className="font-medium text-sm sm:text-base">+389 75 252 097</p>
+                  <p className="font-medium text-sm sm:text-base">+389 73 766 939</p>
                 </div>
               </a>
 
