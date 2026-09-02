@@ -2,7 +2,7 @@
 title: Судски Преводи МК | Англиски–Македонски
 description: Заверен судски превод од англиски на македонски и обратно — правни, академски, деловни и лични документи, изготвен од овластен судски преведувач.
 url: https://sudskiprevodimk.com/services/english-macedonian-translation/
-last_updated: 2026-08-09
+last_updated: 2026-09-02
 ---
 
 [Кон содржинатаSkip to content](#main)

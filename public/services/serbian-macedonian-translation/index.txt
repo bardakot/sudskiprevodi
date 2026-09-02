@@ -2,7 +2,7 @@
 title: Судски Преводи МК | Српски–Македонски
 description: Заверен судски превод од српски на македонски и обратно — правни, академски, деловни и лични документи, изготвен од овластен судски преведувач.
 url: https://sudskiprevodimk.com/services/serbian-macedonian-translation/
-last_updated: 2026-08-09
+last_updated: 2026-09-02
 ---
 
 [Кон содржинатаPređi na sadržaj](#main)
