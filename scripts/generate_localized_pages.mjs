@@ -9,20 +9,20 @@ const siteUrl = "https://sudskiprevodimk.com";
 const homePages = {
   mk: {
     route: "/",
-    title: "Судски преводи | Овластен судски преведувач",
-    description: "Судски преводи од овластен преведувач за англиски, српски и турски јазик. Онлајн нарачка, цена од 300–400 денари и бесплатна достава.",
+    title: "Професионални Судски Преводи – Судски Преводи МК",
+    description: "Професионални судски преводи на правни, академски, деловни и други видови на документи, со најкраток рок за изработка.",
     locale: "mk_MK",
   },
   en: {
     route: "/en/",
-    title: "Certified Court Translation Services | Sudski Prevodi MK",
-    description: "Certified translations between Macedonian, English, Serbian and Turkish. Online ordering, transparent pricing and free document delivery.",
+    title: "Professional Legal Translation Services – Sudski Prevodi MK",
+    description: "Professional certified court translations of legal, academic, business and other types of documents, with the shortest possible turnaround time.",
     locale: "en_GB",
   },
   sr: {
     route: "/sr/",
-    title: "Sudski prevodi | Ovlašćeni sudski prevodilac",
-    description: "Ovlašćeni sudski prevodi između makedonskog, srpskog, engleskog i turskog jezika. Onlajn naručivanje i besplatna dostava.",
+    title: "Професионални судски преводи – Судски Преводи МК",
+    description: "Професионални судски преводи правних, академских, пословних и других врста докумената, у најкраћем року за израду.",
     locale: "sr_RS",
   },
 };
@@ -38,8 +38,8 @@ const staticClusters = [
       },
       en: {
         route: "/en/services/english-macedonian-translation/",
-        title: "English–Macedonian Certified Translation | Sudski Prevodi MK",
-        description: "Certified English to Macedonian and Macedonian to English translation for legal, academic, business and personal documents.",
+        title: "Authorized Court Translator for English – Sudski Prevodi MK",
+        description: "Official certified court translations between English and Macedonian, for all types of documents.",
       },
     },
   },
@@ -48,13 +48,13 @@ const staticClusters = [
     pages: {
       mk: {
         route: "/services/serbian-macedonian-translation/",
-        title: "Судски Преводи МК | Српски–Македонски",
-        description: "Заверен судски превод од српски на македонски и обратно — правни, академски, деловни и лични документи.",
+        title: "Овластен судски преведувач за Српски јазик – Судски Преводи МК",
+        description: "Официјален судски заверен превод помеѓу српски и македонски јазик, на сите видови на документи.",
       },
       sr: {
         route: "/sr/services/serbian-macedonian-translation/",
-        title: "Overeni prevod srpski–makedonski | Sudski Prevodi MK",
-        description: "Overeni prevod sa srpskog na makedonski i sa makedonskog na srpski za pravne, akademske, poslovne i lične dokumente.",
+        title: "Овлашћени судски преводилац за српски језик – Судски Преводи МК",
+        description: "Званични судски оверени преводи са српског на македонски језик и са македонског на српски језик, за све врсте докумената.",
       },
     },
   },
@@ -63,8 +63,8 @@ const staticClusters = [
     pages: {
       mk: {
         route: "/services/turkish-macedonian-translation/",
-        title: "Судски Преводи МК | Турски–Македонски",
-        description: "Заверен судски превод од турски на македонски и обратно — правни, академски, деловни и лични документи.",
+        title: "Овластен судски преведувач за Турски јазик – Судски Преводи МК",
+        description: "Официјален судски заверен превод помеѓу турски и македонски јазик, на сите видови на документи.",
       },
       tr: {
         route: "/tr/services/turkish-macedonian-translation/",
@@ -73,28 +73,51 @@ const staticClusters = [
       },
     },
   },
-  ...["skopje", "prilep", "bitola"].map((city) => {
-    const names = {
-      skopje: ["Скопје", "Skopje"],
-      prilep: ["Прилеп", "Prilep"],
-      bitola: ["Битола", "Bitola"],
-    }[city];
-    return {
-      source: `/locations/${city}/`,
-      pages: {
-        mk: {
-          route: `/locations/${city}/`,
-          title: `Судски Преводи МК | ${names[0]}`,
-          description: `Овластени судски преводи за клиенти во ${names[0]} со онлајн праќање и бесплатна достава.`,
-        },
-        en: {
-          route: `/en/locations/${city}/`,
-          title: `Certified Translation Services in ${names[1]} | Sudski Prevodi MK`,
-          description: `Certified document translations for clients in ${names[1]}, with online submission, transparent pricing and document delivery.`,
-        },
+  {
+    source: "/locations/skopje/",
+    pages: {
+      mk: {
+        route: "/locations/skopje/",
+        title: "Скопје – Судски Преводи МК",
+        description: "Професионални судски преводи на правни, академски, деловни и други видови на документи во Скопје, со најкраток рок за изработка и достава до Вашата адреса.",
       },
-    };
-  }),
+      en: {
+        route: "/en/locations/skopje/",
+        title: "Skopje – Sudski Prevodi MK",
+        description: "Professional certified court translations of legal, academic, business and other types of documents in Skopje, with the shortest possible turnaround time and delivery to your address.",
+      },
+    },
+  },
+  {
+    source: "/locations/prilep/",
+    pages: {
+      mk: {
+        route: "/locations/prilep/",
+        title: "Прилеп – Судски Преводи МК",
+        description: "Професионални судски преводи на правни, академски, деловни и други видови на документи во Прилеп, со најкраток рок за изработка и бесплатна достава до Вашата адреса.",
+      },
+      en: {
+        route: "/en/locations/prilep/",
+        title: "Prilep – Sudski Prevodi MK",
+        description: "Professional certified court translations of legal, academic, business and other types of documents in Prilep, with the shortest possible turnaround time and free delivery to your address.",
+      },
+    },
+  },
+  {
+    source: "/locations/bitola/",
+    pages: {
+      mk: {
+        route: "/locations/bitola/",
+        title: "Битола – Судски Преводи МК",
+        description: "Професионални судски преводи на правни, академски, деловни и други видови на документи во Битола, со најкраток рок за изработка и бесплатна достава до Вашата адреса.",
+      },
+      en: {
+        route: "/en/locations/bitola/",
+        title: "Bitola – Sudski Prevodi MK",
+        description: "Professional certified court translations of legal, academic, business and other types of documents in Bitola, with the shortest possible turnaround time and free delivery to your address.",
+      },
+    },
+  },
 ];
 
 function outputPath(route) {
