@@ -33,8 +33,8 @@ const staticClusters = [
     pages: {
       mk: {
         route: "/services/english-macedonian-translation/",
-        title: "Судски Преводи МК | Англиски–Македонски",
-        description: "Заверен судски превод од англиски на македонски и обратно — правни, академски, деловни и лични документи.",
+        title: "Овластен судски преведувач за Англиски јазик – Судски Преводи МК",
+        description: "Официјален судски заверен превод помеѓу англиски и македонски јазик, на сите видови на документи.",
       },
       en: {
         route: "/en/services/english-macedonian-translation/",
