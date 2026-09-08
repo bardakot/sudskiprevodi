@@ -10,7 +10,7 @@ const homePages = {
   mk: {
     route: "/",
     title: "Професионални Судски Преводи – Судски Преводи МК",
-    description: "Професионални судски преводи на правни, академски, деловни и други видови на документи, со најкраток рок за изработка.",
+    description: "Професионални заверени судски преводи на правни, академски, деловни и други видови на документи, со најкраток можен рок за изработка.",
     locale: "mk_MK",
   },
   en: {
@@ -21,8 +21,8 @@ const homePages = {
   },
   sr: {
     route: "/sr/",
-    title: "Професионални судски преводи – Судски Преводи МК",
-    description: "Професионални судски преводи правних, академских, пословних и других врста докумената, у најкраћем року за израду.",
+    title: "Професионалне Преводилачке Услуге – Судски Преводи МК",
+    description: "Професионални оверени судски преводи правних, академских, пословних и других врста докумената, у најкраћем могућем року за израду.",
     locale: "sr_RS",
   },
 };
@@ -130,11 +130,20 @@ async function writeRoute(route, html) {
   await writeFile(out, html);
 }
 
+function upsertMeta($, attrName, attrValue, content) {
+  const existing = $(`meta[${attrName}="${attrValue}"]`);
+  if (existing.length) {
+    existing.attr("content", content);
+  } else {
+    $("head").append($("<meta>").attr(attrName, attrValue).attr("content", content));
+  }
+}
+
 function setMetadata($, page, alternatives, locale) {
   const absolute = `${siteUrl}${page.route}`;
   $("html").attr("lang", page.language).attr("data-lang", page.language);
   $("title").text(page.title);
-  $('meta[name="description"]').attr("content", page.description);
+  upsertMeta($, "name", "description", page.description);
   $('link[rel="canonical"]').remove();
   $('link[rel="alternate"][hreflang]').remove();
   $("head").append(`<link rel="canonical" href="${absolute}">`);
@@ -143,12 +152,17 @@ function setMetadata($, page, alternatives, locale) {
   }
   const defaultPage = alternatives.find((item) => item.language === "mk") ?? alternatives[0];
   $("head").append(`<link rel="alternate" hreflang="x-default" href="${siteUrl}${defaultPage.route}">`);
-  $('meta[property="og:title"]').attr("content", page.title);
-  $('meta[property="og:description"]').attr("content", page.description);
-  $('meta[property="og:url"]').attr("content", absolute);
-  $('meta[property="og:locale"]').attr("content", locale);
-  $('meta[name="twitter:title"]').attr("content", page.title);
-  $('meta[name="twitter:description"]').attr("content", page.description);
+  upsertMeta($, "property", "og:type", "website");
+  upsertMeta($, "property", "og:site_name", "Судски Преводи МК");
+  upsertMeta($, "property", "og:title", page.title);
+  upsertMeta($, "property", "og:description", page.description);
+  upsertMeta($, "property", "og:url", absolute);
+  upsertMeta($, "property", "og:locale", locale);
+  upsertMeta($, "property", "og:image", `${siteUrl}/og-image.png`);
+  upsertMeta($, "name", "twitter:card", "summary_large_image");
+  upsertMeta($, "name", "twitter:title", page.title);
+  upsertMeta($, "name", "twitter:description", page.description);
+  upsertMeta($, "name", "twitter:image", `${siteUrl}/og-image.png`);
 }
 
 function localizedTarget(href, language) {
@@ -182,7 +196,8 @@ async function generateStaticPages() {
     for (const [language, config] of Object.entries(cluster.pages)) {
       const $ = load(sourceHtml);
       const page = { ...config, language };
-      setMetadata($, page, alternatives, language === "mk" ? "mk_MK" : language === "en" ? "en_GB" : language);
+      const localeByLanguage = { mk: "mk_MK", en: "en_GB", sr: "sr_RS", tr: "tr_TR" };
+      setMetadata($, page, alternatives, localeByLanguage[language] ?? language);
 
       for (const otherLanguage of ["mk", "en", "sr", "tr"].filter((item) => item !== language)) {
         $(`.lang-${otherLanguage}`).remove();
