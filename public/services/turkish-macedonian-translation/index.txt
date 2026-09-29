@@ -60,7 +60,7 @@ Bu tercümenin, aslına uygun ve teknik hatalardan arınmış olduğunu tasdik e
 3.000+
 Преведени странициTercüme edilen sayfa
 
-50+
+70+
 Рецензии со пет ѕвездиBeş yıldızlı değerlendirme
 
 4
@@ -289,7 +289,7 @@ BireylerOturma izni, emeklilik ve kişisel belgeler
 
 [5,0
 ★★★★★
-50+ рецензии на GoogleGoogle'da 50+ değerlendirme
+70+ рецензии на GoogleGoogle'da 70+ değerlendirme
 ↗](https://maps.google.com/?cid=11514070457309463122)
 
 ---

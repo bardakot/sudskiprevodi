@@ -11,6 +11,7 @@ const resources = {
         contact: 'Contact',
         faq: 'FAQ',
         languages: 'Languages',
+        blog: 'Blog',
         locations: 'Locations',
       },
       langPairs: {
@@ -175,6 +176,7 @@ const resources = {
         contact: 'Контакт',
         faq: 'ЧПП',
         languages: 'Јазици',
+        blog: 'Блог',
         locations: 'Локации',
       },
       langPairs: {
@@ -339,6 +341,7 @@ const resources = {
         contact: 'Контакт',
         faq: 'ЧПП',
         languages: 'Језици',
+        blog: 'Блог',
         locations: 'Локације',
       },
       langPairs: {

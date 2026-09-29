@@ -180,6 +180,13 @@ const Header = () => {
               ))}
             </DropdownMenuContent>
           </DropdownMenu>
+
+          <a
+            href="/blog/"
+            className="text-sm font-medium text-foreground hover:text-primary transition-colors py-2 px-3"
+          >
+            {t("nav.blog")}
+          </a>
         </div>
 
         {/* Language Switcher */}
@@ -257,6 +264,14 @@ const Header = () => {
                   </a>
                 ))}
               </div>
+
+              <a
+                href="/blog/"
+                onClick={() => setIsMenuOpen(false)}
+                className="mt-2 pt-3 border-t border-border block text-base font-medium text-foreground hover:text-primary transition-colors py-3 px-4 hover:bg-muted/50 min-h-[48px] active:bg-muted/70 touch-manipulation"
+              >
+                {t("nav.blog")}
+              </a>
             </div>
           </motion.div>
         )}

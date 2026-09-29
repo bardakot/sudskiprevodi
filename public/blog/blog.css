@@ -1,0 +1,196 @@
+/* ============================================================
+   Судски Преводи МК — Блог
+   Shares the palette and fonts of the main site (shared.css).
+   ============================================================ */
+
+.site-header .header-right { display: flex; align-items: center; gap: 20px; }
+.header-nav { display: flex; align-items: center; gap: 4px; }
+.header-nav a {
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  transition: color 0.2s;
+}
+.header-nav a:hover,
+.header-nav a[aria-current="page"] { color: var(--gold); }
+.header-phone {
+  color: var(--gold);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.header-phone:hover { color: var(--gold-light); }
+
+.hero-inner-wide { max-width: 1080px; }
+
+/* ---------- Blog listing ---------- */
+.blog-main { max-width: 1160px; }
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s, transform 0.2s;
+}
+.post-card:hover { border-color: var(--gold); transform: translateY(-3px); }
+.post-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--border);
+}
+.post-card-body { padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.post-card h2 {
+  font-family: var(--heading);
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.post-card:hover h2 { color: var(--gold); }
+.post-card p { color: var(--muted); font-size: 0.95rem; line-height: 1.65; }
+.post-card .read-more {
+  margin-top: auto;
+  padding-top: 6px;
+  color: var(--gold);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ---------- Single post ---------- */
+.breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 20px; }
+.breadcrumb a { color: var(--gold); text-decoration: none; }
+.breadcrumb a:hover { color: var(--gold-light); }
+
+.post-cover {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 44px;
+}
+
+.post-body > p { margin-bottom: 18px; }
+.post-body h2 {
+  font-family: var(--heading);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 44px 0 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--gold);
+  display: inline-block;
+}
+.post-body h3 {
+  font-family: var(--heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--gold);
+  margin: 28px 0 12px;
+}
+.post-body strong { color: var(--gold-light); font-weight: 600; }
+
+.post-cta {
+  margin-top: 52px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 32px 36px;
+}
+.post-cta h2 {
+  margin-top: 0;
+  font-family: var(--heading);
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.post-cta p { color: var(--muted); margin-bottom: 14px; }
+.post-cta .hero-actions { margin-top: 24px; }
+
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 600;
+}
+.back-link:hover { color: var(--gold-light); }
+
+@media (max-width: 640px) {
+  .site-header .header-right { gap: 8px; }
+  .header-phone { display: none; }
+  .header-nav a { padding: 8px; font-size: 0.85rem; }
+  .post-grid { grid-template-columns: 1fr; }
+  .post-body h2 { font-size: 1.7rem; }
+  .post-cta { padding: 26px 22px; }
+}
+
+/* ---------- Post elements: lists, language chains, steps ---------- */
+.post-body ul { list-style: none; margin: 0 0 18px; }
+.post-body ul li {
+  position: relative;
+  padding: 8px 0 8px 26px;
+  border-bottom: 1px solid var(--border);
+}
+.post-body ul li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.lang-chain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin: 8px 0 22px;
+  padding: 18px 22px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+.lang-chain .arrow { color: var(--gold); font-family: 'DejaVu Sans', 'Segoe UI Symbol', system-ui, sans-serif; font-size: 1.15em; line-height: 1; }
+.lang-chain.is-wrong .arrow { color: hsl(6 60% 65%); }
+.lang-chain-label {
+  display: block;
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.lang-chain.is-wrong { border-left-color: hsl(6 60% 55%); }
+.lang-chain.is-wrong .lang-chain-label { color: hsl(6 60% 65%); }
+.lang-chain-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-bottom: 22px; }
+.lang-chain-pair .lang-chain { margin: 0; }
+
+.post-body .process-steps { margin: 8px 0 26px; }
+.post-body .step { margin-bottom: 14px; align-items: center; }
+.post-body .step-body p { color: var(--text); font-size: 1rem; }

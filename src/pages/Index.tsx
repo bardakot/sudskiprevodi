@@ -28,6 +28,29 @@ const Index = () => {
     }
   }, []);
 
+  // Scroll to the section in the URL hash (e.g. /#contact from the blog pages).
+  // The browser's native anchor jump fires before React renders the sections.
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (!hash) return;
+
+    const scrollToHash = () => {
+      const element = document.querySelector(hash);
+      if (!element) return;
+      const headerHeight = window.innerWidth >= 768 ? 80 : 72;
+      const top = element.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+      window.scrollTo({ top, behavior: 'auto' });
+    };
+
+    // Run once after render, and again once images/fonts have loaded and shifted the layout.
+    const timer = window.setTimeout(scrollToHash, 100);
+    window.addEventListener('load', scrollToHash, { once: true });
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener('load', scrollToHash);
+    };
+  }, []);
+
   return (
     <div className="min-h-screen">
       <Header />
